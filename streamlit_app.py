@@ -5,6 +5,13 @@ import re
 from bible_verse_scraper import get_bible_verse, parse_verse_reference
 import csv
 
+# Load environment variables from .env file (for local development)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not available, use environment variables directly
+
 # Page configuration
 st.set_page_config(
     page_title="교회 기도문 번역기 - Church Prayer Translation Service",
@@ -88,16 +95,43 @@ def translate_bible_reference(en_ref):
 
 def setup_gemini_api():
     """Setup Google Gemini API"""
-    api_key = st.session_state.get('gemini_api_key', '')
+    # Try to get API key from environment variable first
+    api_key = os.getenv('GEMINI_API_KEY')
     if api_key:
         genai.configure(api_key=api_key)
         return True
     return False
 
+def check_password():
+    """Check if password is correct"""
+    correct_password = os.getenv('APP_PASSWORD', 'default_password')
+    
+    if 'password_correct' not in st.session_state:
+        st.session_state.password_correct = False
+    
+    if not st.session_state.password_correct:
+        st.title("🔒 교회 기도문 번역 서비스 - 접근 제한")
+        st.write("이 서비스는 승인된 사용자만 이용할 수 있습니다.")
+        
+        password = st.text_input("비밀번호를 입력하세요:", type="password", key="password_input")
+        
+        if st.button("로그인"):
+            if password == correct_password:
+                st.session_state.password_correct = True
+                st.rerun()
+            else:
+                st.error("비밀번호가 올바르지 않습니다.")
+        
+        st.markdown("---")
+        st.markdown("*관리자에게 문의하여 비밀번호를 받으세요.*")
+        return False
+    
+    return True
+
 def translate_with_gemini(text, instructions, word_dict):
     """Translate text using Google Gemini API"""
     if not setup_gemini_api():
-        return "API 키가 설정되지 않았습니다."
+        return "API 키가 설정되지 않았습니다. 관리자에게 문의하세요."
     
     try:
         model = genai.GenerativeModel('gemini-1.5-flash')
@@ -131,23 +165,18 @@ def translate_with_gemini(text, instructions, word_dict):
     except Exception as e:
         return f"번역 오류: {str(e)}"
 
+# Check password first
+if not check_password():
+    st.stop()
+
 # Main UI
 st.title("🙏 교회 기도문 번역 서비스")
-st.subtitle("Church Prayer Translation Service")
+st.subheader("Church Prayer Translation Service")
 
-# API Key input
-st.sidebar.title("🔑 API 설정")
-api_key = st.sidebar.text_input(
-    "Google Gemini API Key", 
-    type="password",
-    help="https://makersuite.google.com/app/apikey 에서 무료 API 키를 발급받으세요"
-)
-
-if api_key:
-    st.session_state['gemini_api_key'] = api_key
-    st.sidebar.success("✅ API 키가 설정되었습니다")
-else:
-    st.sidebar.warning("⚠️ API 키를 입력해주세요")
+# Check API configuration
+if not setup_gemini_api():
+    st.error("⚠️ API 설정에 문제가 있습니다. 관리자에게 문의하세요.")
+    st.stop()
 
 # Instructions display
 st.sidebar.title("📋 번역 지침")
@@ -169,7 +198,7 @@ with col1:
 with col2:
     st.header("🇰🇷 한글 번역문")
     
-    if st.button("🔄 번역하기", type="primary", disabled=not api_key):
+    if st.button("🔄 번역하기", type="primary"):
         if english_text:
             with st.spinner("번역 중입니다..."):
                 # Load resources

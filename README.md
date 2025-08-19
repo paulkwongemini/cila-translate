@@ -38,8 +38,8 @@ streamlit run streamlit_app.py
 
 ### 4. 사용 방법
 
-1. 사이드바에 Google Gemini API 키 입력
-2. 왼쪽에 영문 기도문/텍스트 입력
+1. 비밀번호 입력 (관리자에게 문의)
+2. 왼쪽에 영문 기도문/텍스트 입력  
 3. "번역하기" 버튼 클릭
 4. 오른쪽에서 번역 결과 확인
 
@@ -74,12 +74,16 @@ cila/
 
 ## 🔧 설정
 
-### 환경변수
+### 환경변수 설정
 
+로컬 테스트용 `.env` 파일 생성:
 ```bash
-# .env 파일 (선택사항)
-GEMINI_API_KEY=your_api_key_here
+# .env 파일
+GEMINI_API_KEY=your_gemini_api_key_here
+APP_PASSWORD=your_secure_password_here
 ```
+
+배포 시에는 플랫폼의 환경변수 설정을 사용하세요.
 
 ### 번역 사전 수정
 

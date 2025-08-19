@@ -31,9 +31,16 @@ git push origin main
 5. 메인 파일: `streamlit_app.py`
 6. "Deploy" 클릭
 
-### 3단계: 환경변수 설정 (선택)
-- Advanced settings에서 환경변수 설정 가능
-- `GEMINI_API_KEY=your_api_key_here`
+### 3단계: 환경변수 설정 (필수)
+Advanced settings → Secrets에서 다음 환경변수들을 설정:
+
+```toml
+GEMINI_API_KEY = "your_gemini_api_key_here"
+APP_PASSWORD = "your_secure_password_here"
+```
+
+- `GEMINI_API_KEY`: Google Gemini API 키
+- `APP_PASSWORD`: 앱 접근용 비밀번호 (아무나 사용할 수 없도록 보호)
 
 ## 🛠 기타 배포 옵션
 
