@@ -14,10 +14,58 @@ except ImportError:
 
 # Page configuration
 st.set_page_config(
-    page_title="교회 기도문 번역기 - Church Prayer Translation Service",
+    page_title="🙏 기도문 번역",
     page_icon="🙏",
-    layout="wide"
+    layout="centered"
 )
+
+# Custom CSS for styling
+st.markdown("""
+<style>
+    .main .block-container {
+        max-width: 800px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .stButton > button {
+        background-color: #1e3a8a !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 8px !important;
+        padding: 0.5rem 2rem !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        width: auto !important;
+        margin: 1rem auto !important;
+        display: block !important;
+    }
+    
+    .stButton > button:hover {
+        background-color: #1e40af !important;
+        color: white !important;
+    }
+    
+    .stTextArea > div > div > textarea {
+        font-family: 'Courier New', monospace !important;
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* Center spinner */
+    .stSpinner {
+        text-align: center !important;
+        margin: 2rem 0 !important;
+    }
+    
+    /* Style markdown output */
+    .main .block-container h4 {
+        color: #1f2937 !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # Load translation dictionary
 @st.cache_data
@@ -169,98 +217,67 @@ def translate_with_gemini(text, instructions, word_dict):
 if not check_password():
     st.stop()
 
-# Main UI
-st.title("🙏 교회 기도문 번역 서비스")
-st.subheader("Church Prayer Translation Service")
-
 # Check API configuration
 if not setup_gemini_api():
     st.error("⚠️ API 설정에 문제가 있습니다. 관리자에게 문의하세요.")
     st.stop()
 
-# Instructions display
-st.sidebar.title("📋 번역 지침")
-with st.sidebar.expander("번역 지침 보기"):
-    instructions = load_translation_instructions()
-    st.text(instructions[:500] + "..." if len(instructions) > 500 else instructions)
+# Main UI
+st.title("🙏 기도문 번역")
 
-# Main translation interface
-col1, col2 = st.columns(2)
+# Initialize session state
+if 'translation_state' not in st.session_state:
+    st.session_state.translation_state = 'input'  # 'input', 'processing', 'result'
+if 'korean_result' not in st.session_state:
+    st.session_state.korean_result = ""
 
-with col1:
-    st.header("📝 영문 원문")
-    english_text = st.text_area(
-        "번역할 영문을 입력하세요:",
-        height=400,
-        placeholder="영어 기도문이나 신앙 텍스트를 입력해주세요..."
-    )
-
-with col2:
-    st.header("🇰🇷 한글 번역문")
+# Input state - show input form
+if st.session_state.translation_state == 'input':
+    st.markdown("#### 📝 번역할 원문을 입력하세요 - Markdown / HTML")
     
-    if st.button("🔄 번역하기", type="primary"):
-        if english_text:
-            with st.spinner("번역 중입니다..."):
-                # Load resources
-                word_dict = load_translation_dict()
-                instructions = load_translation_instructions()
-                
-                # Find Bible verses in the text
-                bible_verses = find_bible_verses_in_text(english_text)
-                
-                # Translate
-                korean_text = translate_with_gemini(english_text, instructions, word_dict)
-                
-                st.text_area(
-                    "번역 결과:",
-                    value=korean_text,
-                    height=400
-                )
-                
-                # Show Bible verses found
-                if bible_verses:
-                    st.subheader("📖 발견된 성경구절")
-                    for verse in bible_verses:
-                        korean_ref = translate_bible_reference(verse)
-                        st.write(f"- {verse} → {korean_ref}")
+    english_text = st.text_area(
+        "",
+        height=300,
+        placeholder="영어 기도문이나 신앙 텍스트를 입력해주세요...",
+        label_visibility="collapsed"
+    )
+    
+    if st.button("번역"):
+        if english_text.strip():
+            st.session_state.english_input = english_text
+            st.session_state.translation_state = 'processing'
+            st.rerun()
         else:
             st.warning("번역할 텍스트를 입력해주세요.")
-    
-    # Placeholder for results
-    if 'korean_text' not in st.session_state:
-        st.text_area(
-            "번역 결과:",
-            value="번역 결과가 여기에 표시됩니다...",
-            height=400,
-            disabled=True
+
+# Processing state - show spinner
+elif st.session_state.translation_state == 'processing':
+    with st.spinner("번역 중입니다..."):
+        # Load resources
+        word_dict = load_translation_dict()
+        instructions = load_translation_instructions()
+        
+        # Translate
+        korean_text = translate_with_gemini(
+            st.session_state.english_input, 
+            instructions, 
+            word_dict
         )
+        
+        st.session_state.korean_result = korean_text
+        st.session_state.translation_state = 'result'
+        st.rerun()
 
-# Features section
-st.markdown("---")
-st.header("✨ 주요 기능")
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.subheader("📖 성경구절 자동 인식")
-    st.write("영문 텍스트에서 성경구절을 자동으로 찾아 한국복음서원 회복역으로 정확히 번역합니다.")
-
-with col2:
-    st.subheader("📚 전문용어 사전")
-    st.write("교회와 신앙 관련 전문용어들을 정확하고 일관되게 번역합니다.")
-
-with col3:
-    st.subheader("🤖 AI 번역 + 전문가 검토")
-    st.write("Google Gemini AI와 전문 번역 지침을 결합하여 고품질 번역을 제공합니다.")
-
-# Footer
-st.markdown("---")
-st.markdown(
-    """
-    <div style='text-align: center'>
-    <p>Church in Los Angeles, Hall 1</p>
-    <p><small>Powered by Google Gemini API & Streamlit</small></p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# Result state - show translation result
+elif st.session_state.translation_state == 'result':
+    st.markdown("#### 🇰🇷 한글 번역 결과:")
+    
+    st.markdown(st.session_state.korean_result)
+    
+    # Reset button to go back
+    if st.button("새 번역하기"):
+        st.session_state.translation_state = 'input'
+        st.session_state.korean_result = ""
+        if 'english_input' in st.session_state:
+            del st.session_state.english_input
+        st.rerun()
