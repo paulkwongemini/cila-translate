@@ -215,6 +215,46 @@ def check_password():
     
     return True
 
+def parse_complex_verse_reference(verse):
+    """
+    복잡한 성경 구절 참조를 파싱하여 개별 구절 목록을 반환
+    예: "John 15:1-2, 6, 16" → ["John 15:1", "John 15:2", "John 15:6", "John 15:16"]
+    """
+    individual_verses = []
+    
+    # 책이름과 장을 추출
+    if ':' not in verse:
+        return [verse]  # 콜론이 없으면 그대로 반환
+    
+    book_chapter, verse_parts = verse.rsplit(':', 1)
+    
+    # 콤마로 구분된 부분들을 처리
+    verse_sections = [section.strip() for section in verse_parts.split(',')]
+    
+    for section in verse_sections:
+        if '-' in section:
+            # 범위 구절 처리 (예: "1-2")
+            try:
+                start_verse, end_verse = section.split('-', 1)
+                start_num = int(start_verse.strip())
+                end_num = int(end_verse.strip())
+                
+                for verse_num in range(start_num, end_num + 1):
+                    individual_verses.append(f"{book_chapter}:{verse_num}")
+            except (ValueError, IndexError):
+                # 파싱 실패시 원래 형태로 추가
+                individual_verses.append(f"{book_chapter}:{section}")
+        else:
+            # 단일 구절 처리 (예: "6")
+            try:
+                verse_num = int(section.strip())
+                individual_verses.append(f"{book_chapter}:{verse_num}")
+            except ValueError:
+                # 숫자가 아닌 경우 원래 형태로 추가
+                individual_verses.append(f"{book_chapter}:{section}")
+    
+    return individual_verses
+
 def enhance_text_with_bible_verses(text):
     """Find and enhance English text with Korean Bible verses"""
     # Find Bible verses in the text
@@ -224,10 +264,14 @@ def enhance_text_with_bible_verses(text):
     if bible_verses:
         enhanced_info.append("발견된 성경구절과 한국복음서원 회복역 번역:")
         for verse in bible_verses:
-            korean_ref = translate_bible_reference(verse)
-            korean_verse = get_bible_verse_korean(korean_ref)
-            if not korean_verse.startswith("성경구절 오류") and not korean_verse.startswith("오류"):
-                enhanced_info.append(f"- {verse} → {korean_ref}: {korean_verse}")
+            # 복잡한 구절 참조를 개별 구절들로 분해
+            individual_refs = parse_complex_verse_reference(verse)
+            
+            for individual_ref in individual_refs:
+                korean_ref = translate_bible_reference(individual_ref)
+                korean_verse = get_bible_verse_korean(korean_ref)
+                if not korean_verse.startswith("성경구절 오류") and not korean_verse.startswith("오류"):
+                    enhanced_info.append(f"- {individual_ref} → {korean_ref}: {korean_verse}")
     
     return enhanced_info
 
