@@ -68,7 +68,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load translation dictionary
-@st.cache_data
+@st.cache_data(ttl=300)  # Cache for 5 minutes, then reload
 def load_translation_dict():
     """Load the translation word dictionary"""
     word_dict = {}
@@ -82,7 +82,7 @@ def load_translation_dict():
     return word_dict
 
 # Load translation instructions
-@st.cache_data
+@st.cache_data(ttl=300)  # Cache for 5 minutes, then reload
 def load_translation_instructions():
     """Load the translation instructions"""
     try:
