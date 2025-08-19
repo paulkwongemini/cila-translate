@@ -78,12 +78,14 @@ Pray for the saints to hear the call to overcome...
 
 그리고 생성할 [번역문]의 경우 Markdown 포맷으로 작성해줘.
 
-만일 [원문]이 HTML 포맷인 경우:
-<h3> 제목은 앞에 "#" 를 붙이고 Bold 설정을 해줘.
-목록(리스트)의 경우 HTML의 <ul><li> 태그 대신 Markdown의 "*" 기호를 사용해줘.
-강조(이탤릭)의 경우 HTML의 <em> 태그를 제거해서 강조를 없애줘.
+소제목들 앞에는 "#" 를 붙여서 Heading으로 설정하고 Bold 설정을 해줘.
+목록이 있을 경우 Markdown의 "*" 기호를 사용해줘.
+강조된 텍스트나 italic 텍스트가 있는 경우 꾸밈을 제거해줘. (보통은 텍스트 블록 마지막에 reference 부분이 강조 되어 있는 경우가 많아)
 
-그리고 한 파트 사이사이에 new line을 하나씩 넣어서 너무 빡빡하게 보이지 않도록 해줘.
+[원문]은 HTML일수도, Markdown일수도, 혹은 그냥 Plain text일수도 있어.
+소제목과 목록을 최대한 잘 identify 해서 위에 얘기한대로 포맷해줘.
+
+그리고 파트 사이사이에 new line을 하나씩 넣어서 너무 빡빡하게 보이지 않도록 해줘.
 
 ---
 
