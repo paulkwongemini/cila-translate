@@ -344,53 +344,48 @@ elif st.session_state.translation_state == 'result':
     st.markdown("<br>", unsafe_allow_html=True)
     
     # Copy button with JavaScript functionality
-    col1, col2, col3 = st.columns([1,1,1])
-    with col2:
-        if st.button("📋 복사하기", use_container_width=True):
-            # Create JavaScript to copy to clipboard and show browser confirm
-            import json
-            copy_text = json.dumps(st.session_state.korean_result)
-            components.html(f"""
-                <div>
-                    <button id="copyBtn" style="
-                        background-color: #1e3a8a;
-                        color: white;
-                        border: none;
-                        border-radius: 8px;
-                        padding: 8px 16px;
-                        font-weight: 600;
-                        font-size: 16px;
-                        cursor: pointer;
-                        width: 100%;
-                        margin: 10px 0;
-                    ">📋 텍스트 복사</button>
-                    <script>
-                        const textToCopy = {copy_text};
-                        document.getElementById('copyBtn').addEventListener('click', function() {{
-                            // Use the more reliable textarea method
-                            const textArea = document.createElement('textarea');
-                            textArea.value = textToCopy;
-                            textArea.style.position = 'fixed';
-                            textArea.style.left = '-999999px';
-                            textArea.style.top = '-999999px';
-                            document.body.appendChild(textArea);
-                            textArea.focus();
-                            textArea.select();
-                            
-                            try {{
-                                const successful = document.execCommand('copy');
-                                if (successful) {{
-                                    alert('복사가 완료되었습니다. 기도문 준비 문서에 "Edit - Paste from Markdown"을 사용해 붙여 넣어주세요.');
-                                }} else {{
-                                    alert('복사에 실패했습니다.');
-                                }}
-                            }} catch (err) {{
-                                alert('복사에 실패했습니다.');
-                            }}
-                            
-                            document.body.removeChild(textArea);
-                        }});
-                    </script>
-                </div>
-            """, height=80)
+    import json
+    copy_text = json.dumps(st.session_state.korean_result)
+    components.html(f"""
+        <div style="text-align: center;">
+            <button id="copyBtn" style="
+                background-color: #1e3a8a;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                padding: 12px 24px;
+                font-weight: 600;
+                font-size: 16px;
+                cursor: pointer;
+                margin: 10px 0;
+            ">📋 복사하기</button>
+            <script>
+                const textToCopy = {copy_text};
+                document.getElementById('copyBtn').addEventListener('click', function() {{
+                    // Use the more reliable textarea method
+                    const textArea = document.createElement('textarea');
+                    textArea.value = textToCopy;
+                    textArea.style.position = 'fixed';
+                    textArea.style.left = '-999999px';
+                    textArea.style.top = '-999999px';
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    
+                    try {{
+                        const successful = document.execCommand('copy');
+                        if (successful) {{
+                            alert('복사가 완료되었습니다. 기도문 준비 문서에 "Edit - Paste from Markdown"을 사용해 붙여 넣어주세요.');
+                        }} else {{
+                            alert('복사에 실패했습니다.');
+                        }}
+                    }} catch (err) {{
+                        alert('복사에 실패했습니다.');
+                    }}
+                    
+                    document.body.removeChild(textArea);
+                }});
+            </script>
+        </div>
+    """, height=80)
     
