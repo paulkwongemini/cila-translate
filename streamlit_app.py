@@ -347,16 +347,16 @@ elif st.session_state.translation_state == 'result':
     col1, col2, col3 = st.columns([1,1,1])
     with col2:
         if st.button("📋 복사하기", use_container_width=True):
-            # Create JavaScript to copy to clipboard
-            copy_text = st.session_state.korean_result.replace('\n', '\\n').replace('"', '\\"')
-            st.components.v1.html(f"""
+            # Create JavaScript to copy to clipboard and show browser confirm
+            copy_text = st.session_state.korean_result.replace('`', '\\`').replace('\\', '\\\\')
+            components.html(f"""
                 <script>
                     navigator.clipboard.writeText(`{copy_text}`).then(function() {{
-                        console.log('Text copied to clipboard');
+                        alert('복사가 완료되었습니다. 기도문 준비 문서에 "Edit - Paste from Markdown"을 사용해 붙여 넣어주세요.');
                     }}).catch(function(err) {{
+                        alert('복사에 실패했습니다. 수동으로 복사해주세요.');
                         console.error('Failed to copy text: ', err);
                     }});
                 </script>
             """, height=0)
-            st.success("복사가 완료되었습니다. 기도문 준비 문서에 'Edit - Paste from Markdown'을 사용해 붙여 넣어주세요.")
     
