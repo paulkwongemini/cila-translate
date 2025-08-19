@@ -348,15 +348,49 @@ elif st.session_state.translation_state == 'result':
     with col2:
         if st.button("📋 복사하기", use_container_width=True):
             # Create JavaScript to copy to clipboard and show browser confirm
-            copy_text = st.session_state.korean_result.replace('`', '\\`').replace('\\', '\\\\')
+            import json
+            copy_text = json.dumps(st.session_state.korean_result)
             components.html(f"""
-                <script>
-                    navigator.clipboard.writeText(`{copy_text}`).then(function() {{
-                        alert('복사가 완료되었습니다. 기도문 준비 문서에 "Edit - Paste from Markdown"을 사용해 붙여 넣어주세요.');
-                    }}).catch(function(err) {{
-                        alert('복사에 실패했습니다. 수동으로 복사해주세요.');
-                        console.error('Failed to copy text: ', err);
-                    }});
-                </script>
-            """, height=0)
+                <div>
+                    <button id="copyBtn" style="
+                        background-color: #1e3a8a;
+                        color: white;
+                        border: none;
+                        border-radius: 8px;
+                        padding: 8px 16px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        cursor: pointer;
+                        width: 100%;
+                        margin: 10px 0;
+                    ">📋 텍스트 복사</button>
+                    <script>
+                        const textToCopy = {copy_text};
+                        document.getElementById('copyBtn').addEventListener('click', function() {{
+                            // Use the more reliable textarea method
+                            const textArea = document.createElement('textarea');
+                            textArea.value = textToCopy;
+                            textArea.style.position = 'fixed';
+                            textArea.style.left = '-999999px';
+                            textArea.style.top = '-999999px';
+                            document.body.appendChild(textArea);
+                            textArea.focus();
+                            textArea.select();
+                            
+                            try {{
+                                const successful = document.execCommand('copy');
+                                if (successful) {{
+                                    alert('복사가 완료되었습니다. 기도문 준비 문서에 "Edit - Paste from Markdown"을 사용해 붙여 넣어주세요.');
+                                }} else {{
+                                    alert('복사에 실패했습니다.');
+                                }}
+                            }} catch (err) {{
+                                alert('복사에 실패했습니다.');
+                            }}
+                            
+                            document.body.removeChild(textArea);
+                        }});
+                    </script>
+                </div>
+            """, height=80)
     
