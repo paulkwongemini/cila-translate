@@ -1,0 +1,1 @@
+내가 번역을 명령하면 [translate/TRANSLATE.md]를 수행해
