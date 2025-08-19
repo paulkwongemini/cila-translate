@@ -343,9 +343,9 @@ elif st.session_state.translation_state == 'result':
     st.markdown("<br>", unsafe_allow_html=True)
     
     # Copy button using Streamlit's built-in functionality
-    col1, col2, col3 = st.columns([1,2,1])
+    col1, col2, col3 = st.columns([1,1,1])
     with col2:
-        if st.button("📋 복사하기"):
+        if st.button("📋 복사하기", use_container_width=True):
             st.session_state.show_copy_text = True
             st.rerun()
     
@@ -366,14 +366,3 @@ elif st.session_state.translation_state == 'result':
             st.session_state.show_copy_text = False
             st.rerun()
     
-    # Reset button to go back (smaller, secondary style)
-    st.markdown("<br>", unsafe_allow_html=True)
-    col1, col2, col3 = st.columns([1,1,1])
-    with col2:
-        if st.button("새 번역", type="secondary"):
-            st.session_state.translation_state = 'input'
-            st.session_state.korean_result = ""
-            st.session_state.show_copy_text = False
-            if 'english_input' in st.session_state:
-                del st.session_state.english_input
-            st.rerun()
