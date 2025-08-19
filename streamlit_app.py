@@ -14,7 +14,7 @@ except ImportError:
 
 # Page configuration
 st.set_page_config(
-    page_title="🙏 기도문 번역",
+    page_title="기도문 번역",
     page_icon="🙏",
     layout="centered"
 )
@@ -116,28 +116,66 @@ def find_bible_verses_in_text(text):
     return list(set(verses))  # Remove duplicates
 
 def translate_bible_reference(en_ref):
-    """Translate English Bible reference to Korean format"""
-    # Simple mapping for common books
+    """Translate English Bible reference to Korean format for bible scraper"""
+    # Enhanced mapping for bible scraper compatibility
     book_mapping = {
-        'rev': '계', 'revelation': '계시록',
-        'john': '요', 'jn': '요',
-        'matt': '마', 'matthew': '마태복음',
-        'mark': '마가복음', 'luke': '누가복음',
-        'acts': '행', 'rom': '롬', 'romans': '로마서',
-        'cor': '고', '1 cor': '고전', '2 cor': '고후',
-        'gal': '갈', 'eph': '엡', 'phil': '빌', 'col': '골',
-        'thess': '살', '1 thess': '살전', '2 thess': '살후',
-        'tim': '딤', '1 tim': '딤전', '2 tim': '딤후',
-        'tit': '딛', 'philem': '몬', 'heb': '히',
-        'jas': '약', 'james': '야고보서',
-        'pet': '벧', '1 pet': '벧전', '2 pet': '벧후',
-        '1 kings': '열왕기상', '1 kgs': '왕상'
+        # New Testament
+        'rev.': '계시록', 'revelation': '계시록', 'rev': '계시록',
+        'john': '요한복음', 'jn': '요한복음', 'joh': '요한복음',
+        'matt.': '마태복음', 'matthew': '마태복음', 'mt': '마태복음',
+        'mark': '마가복음', 'mk': '마가복음',
+        'luke': '누가복음', 'lk': '누가복음', 'luk': '누가복음',
+        'acts': '사도행전', 'act': '사도행전',
+        'rom.': '로마서', 'romans': '로마서', 'rom': '로마서',
+        '1 cor.': '고린도전서', '1 cor': '고린도전서', '1 corinthians': '고린도전서',
+        '2 cor.': '고린도후서', '2 cor': '고린도후서', '2 corinthians': '고린도후서',
+        'gal.': '갈라디아서', 'galatians': '갈라디아서', 'gal': '갈라디아서',
+        'eph.': '에베소서', 'ephesians': '에베소서', 'eph': '에베소서',
+        'phil.': '빌립보서', 'philippians': '빌립보서', 'phil': '빌립보서',
+        'col.': '골로새서', 'colossians': '골로새서', 'col': '골로새서',
+        '1 thess.': '데살로니가전서', '1 thess': '데살로니가전서', '1 thessalonians': '데살로니가전서',
+        '2 thess.': '데살로니가후서', '2 thess': '데살로니가후서', '2 thessalonians': '데살로니가후서',
+        '1 tim.': '디모데전서', '1 tim': '디모데전서', '1 timothy': '디모데전서',
+        '2 tim.': '디모데후서', '2 tim': '디모데후서', '2 timothy': '디모데후서',
+        'tit.': '디도서', 'titus': '디도서', 'tit': '디도서',
+        'philem.': '빌레몬서', 'philemon': '빌레몬서', 'philem': '빌레몬서',
+        'heb.': '히브리서', 'hebrews': '히브리서', 'heb': '히브리서',
+        'jas.': '야고보서', 'james': '야고보서', 'jas': '야고보서',
+        '1 pet.': '베드로전서', '1 pet': '베드로전서', '1 peter': '베드로전서',
+        '2 pet.': '베드로후서', '2 pet': '베드로후서', '2 peter': '베드로후서',
+        '1 jn': '요한일서', '1 john': '요한일서',
+        '2 jn': '요한이서', '2 john': '요한이서',
+        '3 jn': '요한삼서', '3 john': '요한삼서',
+        'jude': '유다서',
+        
+        # Old Testament (common ones)
+        'gen.': '창세기', 'genesis': '창세기', 'gen': '창세기',
+        'exod.': '출애굽기', 'exodus': '출애굽기', 'exod': '출애굽기',
+        'ps.': '시편', 'psalm': '시편', 'psalms': '시편', 'psa': '시편',
+        '1 kings': '열왕기상', '1 kgs': '열왕기상',
+        '2 kings': '열왕기하', '2 kgs': '열왕기하',
+        'isa.': '이사야', 'isaiah': '이사야', 'isa': '이사야',
+        'jer.': '예레미야', 'jeremiah': '예레미야', 'jer': '예레미야'
     }
     
     en_ref_lower = en_ref.lower().strip()
-    for eng, kor in book_mapping.items():
+    
+    # Find the best match (longest match first to avoid partial matches)
+    best_match = ""
+    best_replacement = ""
+    
+    for eng, kor in sorted(book_mapping.items(), key=len, reverse=True):
         if en_ref_lower.startswith(eng):
-            return en_ref_lower.replace(eng, kor, 1)
+            if len(eng) > len(best_match):
+                best_match = eng
+                best_replacement = kor
+    
+    if best_match:
+        # Replace and format for bible scraper
+        verse_part = en_ref_lower[len(best_match):].strip()
+        # Convert "3:16" to "3장16절" format
+        verse_part = verse_part.replace(':', '장').replace(' ', '') + '절'
+        return f"{best_replacement}{verse_part}"
     
     return en_ref
 
@@ -176,13 +214,33 @@ def check_password():
     
     return True
 
+def enhance_text_with_bible_verses(text):
+    """Find and enhance English text with Korean Bible verses"""
+    # Find Bible verses in the text
+    bible_verses = find_bible_verses_in_text(text)
+    
+    enhanced_info = []
+    if bible_verses:
+        enhanced_info.append("발견된 성경구절과 한국복음서원 회복역 번역:")
+        for verse in bible_verses:
+            korean_ref = translate_bible_reference(verse)
+            korean_verse = get_bible_verse_korean(korean_ref)
+            if not korean_verse.startswith("성경구절 오류") and not korean_verse.startswith("오류"):
+                enhanced_info.append(f"- {verse} → {korean_ref}: {korean_verse}")
+    
+    return enhanced_info
+
 def translate_with_gemini(text, instructions, word_dict):
-    """Translate text using Google Gemini API"""
+    """Translate text using Google Gemini API with Bible verse integration"""
     if not setup_gemini_api():
         return "API 키가 설정되지 않았습니다. 관리자에게 문의하세요."
     
     try:
         model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        # Find and get Korean Bible verses
+        bible_verse_info = enhance_text_with_bible_verses(text)
+        bible_context = "\n".join(bible_verse_info) if bible_verse_info else ""
         
         # Create specialized dictionary context
         dict_context = "\n".join([f"- {en}: {ko}" for en, ko in word_dict.items()])
@@ -196,15 +254,19 @@ def translate_with_gemini(text, instructions, word_dict):
 특별 용어 사전:
 {dict_context}
 
-다음 영문을 한국어로 번역해 주세요. 성경구절이 포함된 경우 한국복음서원 회복역 번역을 사용하세요:
+성경구절 참고 정보 (한국복음서원 회복역):
+{bible_context}
+
+다음 영문을 한국어로 번역해 주세요:
 
 {text}
 
 번역 시 주의사항:
-1. 성경구절은 정확한 회복역 번역을 사용하세요
+1. 위에 제공된 한국복음서원 회복역 성경구절을 정확히 사용하세요
 2. 교회와 신앙 관련 전문용어는 제공된 사전을 참고하세요  
 3. 겸손하고 진지한 어조를 유지하세요
 4. 자연스러운 한국어 표현을 사용하세요
+5. 성경구절 번역은 절대 추측하지 말고 위 정보를 정확히 활용하세요
 """
         
         response = model.generate_content(prompt)
@@ -233,12 +295,12 @@ if 'korean_result' not in st.session_state:
 
 # Input state - show input form
 if st.session_state.translation_state == 'input':
-    st.markdown("#### 📝 번역할 원문을 입력하세요 - Markdown / HTML")
+    st.markdown("#### 📝 번역할 기도문을 입력하세요 - Markdown / HTML")
     
     english_text = st.text_area(
         "",
         height=300,
-        placeholder="영어 기도문이나 신앙 텍스트를 입력해주세요...",
+        placeholder="",
         label_visibility="collapsed"
     )
     
@@ -308,7 +370,7 @@ elif st.session_state.translation_state == 'result':
     st.markdown("<br>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,1,1])
     with col2:
-        if st.button("새 번역하기", type="secondary"):
+        if st.button("새 번역", type="secondary"):
             st.session_state.translation_state = 'input'
             st.session_state.korean_result = ""
             st.session_state.show_copy_text = False
