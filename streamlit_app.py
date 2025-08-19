@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import google.generativeai as genai
 import os
 import re
@@ -342,27 +343,20 @@ elif st.session_state.translation_state == 'result':
     # Add some space before button
     st.markdown("<br>", unsafe_allow_html=True)
     
-    # Copy button using Streamlit's built-in functionality
+    # Copy button with JavaScript functionality
     col1, col2, col3 = st.columns([1,1,1])
     with col2:
         if st.button("📋 복사하기", use_container_width=True):
-            st.session_state.show_copy_text = True
-            st.rerun()
-    
-    # Show text area for copying when button is clicked
-    if st.session_state.get('show_copy_text', False):
-        st.markdown("<br>", unsafe_allow_html=True)
-        st.markdown("**복사할 텍스트 (전체 선택 후 Ctrl+C):**")
-        st.text_area(
-            "",
-            value=st.session_state.korean_result,
-            height=200,
-            label_visibility="collapsed",
-            help="전체 선택 후 Ctrl+C (또는 Cmd+C)로 복사하세요"
-        )
-        
-        # Hide copy text button
-        if st.button("닫기"):
-            st.session_state.show_copy_text = False
-            st.rerun()
+            # Create JavaScript to copy to clipboard
+            copy_text = st.session_state.korean_result.replace('\n', '\\n').replace('"', '\\"')
+            st.components.v1.html(f"""
+                <script>
+                    navigator.clipboard.writeText(`{copy_text}`).then(function() {{
+                        console.log('Text copied to clipboard');
+                    }}).catch(function(err) {{
+                        console.error('Failed to copy text: ', err);
+                    }});
+                </script>
+            """, height=0)
+            st.success("복사가 완료되었습니다. 기도문 준비 문서에 'Edit - Paste from Markdown'을 사용해 붙여 넣어주세요.")
     
