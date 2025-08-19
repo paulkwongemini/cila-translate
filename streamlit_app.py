@@ -250,8 +250,11 @@ if st.session_state.translation_state == 'input':
         else:
             st.warning("번역할 텍스트를 입력해주세요.")
 
-# Processing state - show spinner
+# Processing state - show only spinner, hide everything else
 elif st.session_state.translation_state == 'processing':
+    # Empty container to push spinner to center
+    st.empty()
+    
     with st.spinner("번역 중입니다..."):
         # Load resources
         word_dict = load_translation_dict()
@@ -274,10 +277,41 @@ elif st.session_state.translation_state == 'result':
     
     st.markdown(st.session_state.korean_result)
     
-    # Reset button to go back
-    if st.button("새 번역하기"):
-        st.session_state.translation_state = 'input'
-        st.session_state.korean_result = ""
-        if 'english_input' in st.session_state:
-            del st.session_state.english_input
-        st.rerun()
+    # Add some space before button
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # Copy button using Streamlit's built-in functionality
+    col1, col2, col3 = st.columns([1,2,1])
+    with col2:
+        if st.button("📋 복사하기"):
+            st.session_state.show_copy_text = True
+            st.rerun()
+    
+    # Show text area for copying when button is clicked
+    if st.session_state.get('show_copy_text', False):
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("**복사할 텍스트 (전체 선택 후 Ctrl+C):**")
+        st.text_area(
+            "",
+            value=st.session_state.korean_result,
+            height=200,
+            label_visibility="collapsed",
+            help="전체 선택 후 Ctrl+C (또는 Cmd+C)로 복사하세요"
+        )
+        
+        # Hide copy text button
+        if st.button("닫기"):
+            st.session_state.show_copy_text = False
+            st.rerun()
+    
+    # Reset button to go back (smaller, secondary style)
+    st.markdown("<br>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns([1,1,1])
+    with col2:
+        if st.button("새 번역하기", type="secondary"):
+            st.session_state.translation_state = 'input'
+            st.session_state.korean_result = ""
+            st.session_state.show_copy_text = False
+            if 'english_input' in st.session_state:
+                del st.session_state.english_input
+            st.rerun()

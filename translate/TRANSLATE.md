@@ -83,6 +83,8 @@ Pray for the saints to hear the call to overcome...
 목록(리스트)의 경우 HTML의 <ul><li> 태그 대신 Markdown의 "*" 기호를 사용해줘.
 강조(이탤릭)의 경우 HTML의 <em> 태그를 제거해서 강조를 없애줘.
 
+그리고 한 파트 사이사이에 new line을 하나씩 넣어서 너무 빡빡하게 보이지 않도록 해줘.
+
 ---
 
 # 성경 구절 번역 가이드라인
