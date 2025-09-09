@@ -22,6 +22,9 @@ root_directory에 [PARSED_OUTPUT.html] 라는 파일을 생성, 혹은 덮어쓰
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-<style>.nanum-myeongjo { h3, p, li { font-family: "Nanum Myeongjo", serif !important; } }</style>
+<style>
+.nanum-myeongjo { h3, p, li { font-family: "Nanum Myeongjo", serif !important; } }
+.nanum-myeongjo > h3:not(:first-child) { margin-top: 72px; }
+</style>
 ```
 위에 붙인 이 코드와 작업물 사이에 new line을 추가하지 않도록 합니다.
