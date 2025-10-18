@@ -90,7 +90,7 @@ Pray for the saints to hear the call to overcome...
 [원문]은 HTML일수도, Markdown일수도, 혹은 그냥 Plain text일수도 있어.
 소제목과 목록을 최대한 잘 identify 해서 위에 얘기한대로 포맷해줘.
 
-공지사항 (Announcements)은 번역하지 말고. 공지사항 부분은 결과물에서도 원문, 번역문 모두 제거해.
+공지사항 (explicitly titled as: <h3>Announcements</h3>)은 번역하지 말고. 공지사항 부분은 결과물에서도 원문, 번역문 모두 제거해.
 
 그리고 파트 사이사이에 new line을 하나씩 넣어서 너무 빡빡하게 보이지 않도록 해줘.
 

@@ -68,3 +68,4 @@ logs/
 # Input/Output Files
 *.md
 PARSED_OUTPUT.html
+translate/en
