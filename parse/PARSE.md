@@ -17,14 +17,19 @@ parse 폴더 내에, 혹은 root directory 에서 [🙏 기도문 준비 📋.md
 root_directory에 [PARSED_OUTPUT.html] 라는 파일을 생성, 혹은 덮어쓰기
 
 ### 마무리 작업
-변환을 마치면, 변환된 작업물 전체를 <div class="nanum-myeongjo"> 태그로 감싸고, 가장 상단에 아래와 같은 코드를 붙입니다:
+변환을 마치면, 변환된 작업물 전체를 <div class="korean-section"> 태그로 감싸고, 가장 상단에 아래와 같은 코드를 붙입니다:
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 <style>
-.nanum-myeongjo { h3, p, li { font-family: "Nanum Myeongjo", serif !important; } }
-.nanum-myeongjo > h3:not(:first-child) { margin-top: 72px; }
+.korean-section { 
+  h3, p, li { font-family: "Nanum Myeongjo", serif !important; } 
+  h3:not(:first-child) { margin-top: 72px; }
+  table {
+    th, td { padding: 8px; }
+  }
+}
 </style>
 ```
 위에 붙인 이 코드와 작업물 사이에 new line을 추가하지 않도록 합니다.
