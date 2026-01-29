@@ -1,53 +1,42 @@
 ---
 name: parser
-description: Instructions for the Agent to convert Markdown to HTML fragment manually.
+description: Convert translated Markdown documents into styled HTML fragments for publication. Use when the user asks to "Convert" a document.
 ---
 
-# Parser Skill (Agent Instruction)
+# Parser Skill
 
-This skill provides the **Standard Operating Procedure (SOP)** for the Agent to convert the translated Markdown file into the final HTML fragment without using a script.
+This skill converts a translated Markdown document (usually `workspace/translated.md`) into a styled HTML fragment suitable for publication.
 
-## Procedure
+## When to Use
 
-1.  **Read Input**:
-    -   Read `workspace/translated.md` (or specified file).
+Use this skill when:
+- The user asks to "Convert" or "Format" the translated document.
+- You need to generate the legacy HTML format from a Markdown source.
 
-2.  **Filter & Prepare**:
-    -   **Ignore Top Title**: If the first non-empty line starts with `#` and contains "주간 기도문", ignore it (do not include in output).
-    -   **Filter English**: If the document contains interleaved English and Korean, **exclude all English content**. Keep only the Korean sections.
+## Usage Procedure
 
-3.  **Apply HTML Conversion**:
-    -   **Headers**: Convert lines starting with `#` to `<h3>`. Remove bold `**` markers if present.
-    -   **Lists**: Convert lines starting with `* ` (asterisk + space) into `<ul>` with `<li>`. Combine consecutive list items into a single `<ul>`.
-    -   **Paragraphs**: Wrap other non-empty lines in `<div class="p">`.
-    -   **Links**: Convert `[text](url)` to `<a href="url" target="_blank">text</a>`.
+### 1. Run Conversion Script
 
-4.  **Final Assembly**:
-    -   Do **not** create a full HTML skeleton (`<html>`, `<body>`).
-    -   Prepend the **CSS Block** (see below).
-    -   Wrap the entire converted content in a `<div class="korean-section">` container.
-    -   Ensure there is **no newline** between the CSS block and the `<div class="korean-section">`.
+Use the `parse_doc.py` script to perform the conversion.
 
-5.  **Output**:
-    -   Save the result to `outputs/final.html`.
+```bash
+python3 skills/parser/scripts/parse_doc.py --input <path_to_markdown> --output <path_to_html>
+```
 
-## Reference: CSS Block
+-   **Defaults**:
+    -   `--input`: `workspace/translated.md`
+    -   `--output`: `outputs/final.html`
 
-Use this exact code block at the top of the file:
+### 2. Verify Output
 
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-<style>
-.korean-section { 
-  h3, .p, li { font-family: "Nanum Myeongjo", serif !important; } 
-  h3:not(:first-child) { margin-top: 72px; }
-  h3 { margin-bottom: 24px; }
-  table {
-    th, td { padding: 8px; }
-  }
-  .p { margin-bottom: 24px; }
-}
-</style>
+-   Check `outputs/final.html` to ensure:
+    -   It is a valid HTML fragment (starts with `<style>...`, ends with `</div>`).
+    -   English sections are excluded.
+    -   Korean titles and content are preserved and styled.
+    -   Announcements are removed (if not already handled by translator).
+
+## Example
+
+```bash
+python3 skills/parser/scripts/parse_doc.py
 ```

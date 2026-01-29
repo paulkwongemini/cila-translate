@@ -1,61 +1,52 @@
 ---
 name: translator
-description: Instructions for the Agent to translate documents manually, using subagents for resources.
+description: Start a translation task. This skill helps the Agent translate English church documents into Korean by guiding the context preparation and translation process.
 ---
 
-# Translator Skill (Agent Instruction)
+# Translator Skill
 
-This skill provides the **Standard Operating Procedure (SOP)** for the Agent to perform translations without running a python script.
+This skill assists in translating English church documents into Korean. It relies on the **Agent** to identify and fetch Bible verses using the `bible-verse-getter` skill to ensure accuracy.
 
-## Procedure
+## When to Use
 
-1.  **Analyze Input**:
-    -   Read the file at `inputs/raw.html` (or specified path).
-    -   Identify any Bible verse references (e.g., "John 3:16", "Rev. 19:7").
+Use this skill when:
+- You need to translate a document (e.g., `inputs/raw.html`, prayer outlines) from English to Korean.
+- The document contains Bible verse references that need to be quoted exactly.
 
-2.  **Fetch Bible Verses**:
-    -   For each identified verse, use the **Bible Verse Scraper Skill**.
-    -   **Strict Rule**: Do not guess or back-translate verses. You must fetch the exact text from the **Korean Recovery Version** (rv.or.kr).
+## Usage Procedure
 
-3.  **Prepare Resources**:
-    -   Read `skills/translator/resources/WORDS.csv` for the glossary.
+### 1. Identify and Fetch Bible Verses
 
-4.  **Translate (LLM Task)**:
-    -   Perform the translation following the **Translation Guidelines** below.
-    -   Integrate the fetched Bible verses exactly as they are.
-    -   Save the result to `workspace/translated.md` (or specified path).
+As the Agent, you must first scan the input document for any Bible verse references (e.g., "John 3:16", "Matt. 5:3-5").
 
-## Translation Guidelines
+For **each** unique reference found:
+1.  Determine the Book, Chapter, and Verse(s).
+2.  Use the `bible-verse-getter` skill to fetch the **Korean Recovery Version** text.
+    -   Run: `python3 skills/bible-verse-getter/scripts/get_verse.py --book "<Book>" --chapter <Chapter> --verse <Verse>`
+    -   **Strict Rule:** Do not guess or back-translate verses. You must fetch the exact text from the source.
 
-### 1. Purpose and Tone
-*   **Purpose**: Clear communication for church prayer meetings and services.
-*   **Tone**:
-    *   Humble and sincere (겸손하고 진지한 어조).
-    *   Warm and comforting.
-    *   Spiritual and appropriate for a faith context.
+### 2. Prepare Resources
 
-### 2. Glossary Usage
-*   Use the `WORDS.csv` file for specific terms.
-*   If a term is not in the glossary, use the most appropriate spiritual term in context.
+-   **Glossary**: Read `skills/translator/resources/WORDS.csv` for specific term usage.
 
-### 3. Sentence Structure
-*   Stay faithful to the English original but ensure natural Korean flow.
-*   Long English sentences can be split into two or more Korean sentences if needed.
-*   **Do not omit** any English words.
-*   **Do not replace** specific terms with pronouns (e.g., Translate "the Son of God" fully, not just "He").
+### 3. Translate
 
-### 4. Output Formatting (Markdown)
-The final `translated.md` should be structured as follows:
+Perform the translation using the fetched verses and the glossary.
 
-*   **Date Title**: `# **YYYY년 M월 D일 주간 기도문**` (at the top)
-*   **Sections**: Separate each section with a blank line.
-    1.  **English Title**: `# **English Title**`
-    2.  [English Content] (Scriptures, Body, Prayer Burdens)
-    3.  **Korean Title**: `# **한글 제목**`
-    4.  [Korean Content] (Scriptures, Body, Prayer Burdens)
+-   **Bible Verses**: Insert the exact Korean text you fetched in Step 1.
+-   **Tone**: Humble, sincere, spiritual.
+-   **Output**: Save the translated content to `workspace/translated.md` (or the user-specified output path).
 
-**Formatting Rules**:
-*   Use `#` for headings (H1/H2).
-*   Use `*` for list items.
-*   Remove bold/italic styling from references if present.
-*   **Announcements**: Do NOT translate content labeled `<h3>Announcements</h3>`. Remove it entirely from the output.
+### 4. Formatting
+
+Ensure the output follows the standard format:
+-   **Date Title**: `# **YYYY년 M월 D일 주간 기도문**`
+-   **Structure**: English Section followed by Korean Section.
+-   **Announcement**: Remove any "Announcements" sections.
+
+## Example Workflow
+
+1.  **Read Input**: User asks to translate `inputs/raw.html`.
+2.  **Scan**: You see "John 3:16" in the text.
+3.  **Fetch**: You run `python3 skills/bible-verse-getter/scripts/get_verse.py --book "John" --chapter 3 --verse 16`.
+4.  **Translate**: You write the Korean translation, pasting the fetched verse text where "John 3:16" appears.
