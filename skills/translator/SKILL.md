@@ -34,14 +34,15 @@ For **each** unique reference found:
 Perform the translation using the fetched verses and the glossary.
 
 -   **Bible Verses**: Insert the exact Korean text you fetched in Step 1.
--   **Tone**: Humble, sincere, spiritual.
 -   **Output**: Save the translated content to `workspace/translated.md` (or the user-specified output path).
 
 ### 4. Formatting
 
 Ensure the output follows the standard format:
 -   **Date Title**: `# **YYYY년 M월 D일 주간 기도문**`
--   **Structure**: English Section followed by Korean Section.
+-   **Section Headers**: Use `##` for all prayer section titles (both English and Korean).
+-   **Tone**: Humble, sincere, spiritual. Use polite/formal endings (e.g., `-입니다`, `-합니다`, `-습니다`), avoiding plain forms like `-이다` or `-한다`.
+-   **Structure**: Interleaved English and Korean sections. For each topic, place the English section first, immediately followed by its Korean translation.
 -   **Announcement**: Remove any "Announcements" sections.
 
 ## Example Workflow
