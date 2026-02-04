@@ -1,0 +1,45 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+.korean-section {
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 1.8;
+  color: #333;
+}
+
+.korean-section h3 {
+  color: #2c3e50;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+.korean-section h3:not(:first-child) {
+  margin-top: 60px;
+}
+
+.korean-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.korean-section li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  text-align: justify;
+}
+
+.korean-section .p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.korean-section a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.korean-section a:hover {
+  text-decoration: underline;
+}
+
+</style>
