@@ -8,12 +8,12 @@
 
 .korean-section h3 {
   color: #2c3e50;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   font-weight: 800;
 }
 
 .korean-section h3:not(:first-child) {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .korean-section ul {
@@ -22,19 +22,20 @@
 }
 
 .korean-section li {
-  margin-bottom: 15px;
-  padding-left: 20px;
+  margin-bottom: 12px;
+  padding-left: 4px;
   position: relative;
-  text-align: justify;
+  text-align: left;
 }
 
 .korean-section .p {
-  margin-bottom: 15px;
-  text-align: justify;
+  margin-bottom: 12px;
+  text-align: left;
 }
 
 .korean-section a {
-  color: #3498db;
+  color: #006cff !important;
+  font-weight: 600;
   text-decoration: none;
 }
 
