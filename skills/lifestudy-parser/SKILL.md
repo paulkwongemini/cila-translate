@@ -34,6 +34,7 @@ You will manually generate the HTML content file by processing the markdown acco
         -   Use `#` for Roman Numerals (e.g., `# I. Title`).
         -   Use `##` for Capital Letters (e.g., `## A. Subtitle`).
         -   Use `###` for All heading levels below Capital Letters.
+        -   **Exception**: If a message does not use Roman Numerals (I, II, III) for its main headings but uses short sentence headings instead, format them as `##` (H2).
 
 2.  **Identify and Fetch Bible Verses**:
     As the Agent, you must first scan the input document for any Bible verse references (e.g., "John 3:16", "Matt. 5:3-5"). If the verse is referenced without mentioning the name of the book, it is highly likely that it is from Ephesians. However, you must check the context to confirm.
