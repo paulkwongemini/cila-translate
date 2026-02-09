@@ -48,7 +48,11 @@ You will manually generate the HTML content file by processing the markdown acco
     - The source text will have an old version of Bible verses. Replace them with the up-to-date Korean Recovery Version verses, fetched from Step 2.
     - On many occations, the Bible verses will not be a complete verse. If the source has a partial verse, you must identify which portion of the fetched verse should replace the source, and use only that portion. Do not replace a partial verse with a complete verse.
 
-4.  **Formatting Rules**:
+4.  **Refine Formatting**:
+    - **Remove duplicate new lines**: The source text may have duplicate new lines between paragraphs and headings. Reduce them to just 1 new line between headings and paragraphs.
+    - **Clean up Artifacts**: Ensure no stray underscores `_` or symbols are inserted, especially near Bible verse references (e.g., `(빌 1:20)`). Remove them if they appear unless they are valid Markdown italics.
+
+5.  **Formatting Rules**:
     - **Sections**: Do not use `---` to separate sections. The paragraphs will have a space after them, so focus on getting the headers correctly.
     - **Bolds**: Do not bold the headers. Styling will be taken care of by the user.
 
