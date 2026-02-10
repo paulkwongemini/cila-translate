@@ -22,14 +22,13 @@ Use this skill when:
 
 ### 2. manual Agentic Conversion
 
+Operation must be done without the use of script, ensuring a correct and safe conversion.
 You will manually generate the HTML content file by processing the markdown according to the following rules:
 
 1.  **Structure**:
     - Read the content of `skills/parser/assets/style.css`.
     - **Minify the CSS**: Remove all empty newlines and extra whitespace from the read CSS content.
     - Start the file with this minified CSS block.
-
-
     - Wrap the entire body content in a `<div class="korean-section">` container.
     - End the file with `</div>`.
 
@@ -50,11 +49,12 @@ You will manually generate the HTML content file by processing the markdown acco
 
 ### 3. Output
 
-- Save the generated HTML content to `outputs/final.html` (or the location specified by the user).
+- Save the generated HTML content to `outputs/final` (or the location specified by the user).
 
 ### 4. Verify Output
 
-- Check `outputs/final.html` to ensure:
-    - It starts with the CSS block.
+- Check `outputs/final` to ensure:
+    - It starts with the CSS block, which must be minified to a SINGLE LINE.
     - It contains only Korean content.
     - All tags are properly closed.
+    - Paragraphs (`<div class="p">`) must NOT contain internal newlines. The entire paragraph text must be on a single line.
