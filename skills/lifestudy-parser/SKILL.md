@@ -57,6 +57,28 @@ You will manually generate the HTML content file by processing the markdown acco
     - **Sections**: Do not use `---` to separate sections. The paragraphs will have a space after them, so focus on getting the headers correctly.
     - **Bolds**: Do not bold the headers. Styling will be taken care of by the user.
 
-### 3. Output
+### 3. Verification
+
+Before saving the file, you MUST verify the content to ensure quality. Even if it takes longer, accuracy is paramount.
+
+1.  **Check for Truncated Content**:
+    -   Compare the last paragraph of your generated markdown with the corresponding message in the source text.
+    -   Ensure the message ends exactly where it should. If the source text continues but your markdown stops, you have truncated the message. **This is a critical failure.**
+    -   If truncated, re-read the source text and append the missing content.
+
+2.  **Check for Unusual Characters**:
+    -   Scan the document for any characters that are not Korean, English, standard punctuation, or standard Markdown symbols.
+    -   Look specifically for encoding artifacts like `` or other gibberish.
+    -   Ensure there are no unexpected symbols like `?` replacing valid characters.
+
+3.  **Verse Verification**:
+    -   Double-check that all Bible verses have been replaced with the **Korean Recovery Version**.
+    -   Ensure no placeholder text remains.
+
+4.  **Formatting Check**:
+    -   Verify that all headers are correctly styled (`#`, `##`, `###`).
+    -   Ensure there are no duplicate newlines between sections (only 1 newline allowed).
+
+### 4. Output
 
 - Save the generated markdown content to `lifestudy-of-ephesians/eph-##.md`, where `##` is the message number in 2 digits. For example, `eph-01.md` for message 1, `eph-37.md` for message 37, etc.
