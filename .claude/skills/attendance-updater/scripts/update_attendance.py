@@ -237,9 +237,10 @@ def find_attendance_section(doc):
                                     cell_data = cells[ci]
                                     for ce in cell_data.get("content", []):
                                         if "paragraph" in ce:
-                                            for el in ce["paragraph"].get("elements", []):
-                                                start = el["startIndex"]
-                                                end = el["endIndex"]
+                                            elements = ce["paragraph"].get("elements", [])
+                                            if elements:
+                                                start = elements[0]["startIndex"]
+                                                end = elements[-1]["endIndex"]
                                                 updates["summary_table"][label][categories[ci - 1]] = (start, end)
 
                         elif cols_count == 2 and rows_count > 10:
@@ -262,9 +263,10 @@ def find_attendance_section(doc):
                                 # Get value cell position
                                 for ce in cells[1].get("content", []):
                                     if "paragraph" in ce:
-                                        for el in ce["paragraph"].get("elements", []):
-                                            start = el["startIndex"]
-                                            end = el["endIndex"]
+                                        elements = ce["paragraph"].get("elements", [])
+                                        if elements:
+                                            start = elements[0]["startIndex"]
+                                            end = elements[-1]["endIndex"]
                                             updates["group_table"][label] = (start, end)
 
     return updates
