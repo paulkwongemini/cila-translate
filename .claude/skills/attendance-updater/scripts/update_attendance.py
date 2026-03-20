@@ -199,14 +199,18 @@ def find_attendance_section(doc):
                 # Found the attendance cell - now parse it
                 for c_elem in cell_content:
                     if "paragraph" in c_elem:
-                        for el in c_elem["paragraph"].get("elements", []):
+                        para_elements = c_elem["paragraph"].get("elements", [])
+                        # Use paragraph's last element endIndex to ensure \n is included,
+                        # since Google Docs may split the \n into a separate element
+                        para_end = para_elements[-1]["endIndex"] if para_elements else None
+                        for el in para_elements:
                             if "textRun" in el:
                                 text = el["textRun"]["content"]
                                 # Date range line (e.g., "2026/3/2(월) - 2026/3/8(주)\n")
                                 if "/" in text and "(" in text and ")" in text and "인수" not in text:
                                     updates["date_range"] = (
                                         el["startIndex"],
-                                        el["endIndex"]
+                                        para_end
                                     )
 
                     elif "table" in c_elem:
