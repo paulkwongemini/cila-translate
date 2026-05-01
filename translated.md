@@ -1,123 +1,107 @@
-# **2026년 3월 8일 주간 기도문**
+# **2026년 4월 26일 주간 기도문**
 
-## God With Us
+## "Behold, the Lion of the tribe of Judah"
 
-"'Behold, the virgin shall be with child and shall bear a son, and they shall call His name Emmanuel' (which is translated, God with us)." (Matt. 1:23)
+"And one of the elders said to me, Do not weep; behold, the Lion of the tribe of Judah, the Root of David, has overcome so that He may open the scroll and its seven seals." (Rev. 5:5)
 
-"And behold, I am with you all the days until the consummation of the age." (Matt. 28:20b)
+"And I saw in the midst of the throne and of the four living creatures and in the midst of the elders a Lamb standing as having just been slain, having seven horns and seven eyes, which are the seven Spirits of God sent forth into all the earth. And He came and took the scroll out of the right hand of Him who sits upon the throne." (Rev. 5:6-7)
 
-"And He said, My presence shall go with you, and I will give you rest." (Exo. 33:14)
+After Christ passed through death, resurrection, and ascension, He stood in the midst of the throne and the four living creatures. There was a resurrected Lamb standing before the throne in heaven.
 
-Christ is God with us [Matt. 1:23]. This is revealed not only in Matthew 1 but also in Matthew 28, where the Lord Jesus said, "Behold, I am with you all the days until the consummation of the age" (v. 20). Actually, the entire New Testament is an Emmanuel, and we are now a part of this great Emmanuel that will consummate in the New Jerusalem in the new heaven and new earth for eternity. (*Life-study of Isaiah*, 2nd ed., pp. 53-54)
+This Lion-Lamb was standing, not sitting, and His seven eyes were flashing. This indicates that His work was not finished…As far as redemption is concerned, Christ sat down at the right hand of God in the heavens after His ascension (Heb. 1:3; 10:12); however, regarding the carrying out of God's administration, He is still standing in His ascension.
 
-To live with Christ as Emmanuel, we need to be in His divine presence, which is the life-giving Spirit as the consummation of the Triune God (Gal. 5:25). To live with Christ, we still live, yet not by ourselves alone but by Christ living in us and with us as Emmanuel; the Triune God cannot complete His intention to dispense Himself into our being outside of us; therefore, His being with us must be inward (2:20). Emmanuel is our life and person, and we are His organ, living together with Him as one person; our victory depends upon Emmanuel, the presence of Jesus. If we have the Lord's presence, we have wisdom, insight, foresight, and the inner knowledge concerning things; the Lord's presence is everything to us.
+The redeeming Lamb is now standing at the center of the universe, before God's throne. This reveals that the Redeemer is now in God's administration. He is the Administrator of the universe, executing God's economy…The whole universe is watching this scene. The four living creatures, the twenty-four elders, myriads of angels, and all other creatures are wide-awake, alert, and observing. These are the circumstances in which they proclaim, "To Him who sits upon the throne and to the Lamb be the blessing and the honor and the glory and the might forever and ever" (Rev. 5:13). There is a Lion-Lamb standing in the center of the universe with seven flashing, burning eyes. He saves us from our silence, coldness, and laziness. Our vision must be uplifted to see this Lamb accomplishing a work of eternally vast dimensions. (*The Conclusion of the New Testament*, pp. 4225-4226, 4236-4237)
 
-If we would enter, possess, and enjoy the all-inclusive Christ as the reality of the good land, we must do so by the presence of the Lord. The Lord promised Moses, "My presence shall go with you, and I will give you rest" (Exo. 33:14); God's presence is His way, the "map" that shows His people the way they should take. (*The All-inclusive Christ as Revealed in Matthew*, msg. 3, II.E.1-3, F)
+## "보십시오, 유다 지파의 사자"
 
-May the Lord lead the church in Los Angeles on, by all the saints seeking His face!
+"그러자 장로들 중에 하나가 나에게 말하였습니다. '울지 마십시오. 보십시오, 유다 지파의 사자, 다윗의 뿌리가 이기었으니, 그 두루마리와 일곱 봉인을 뗄 수 있습니다.'" (계 5:5)
 
-## 우리와 함께 계시는 하나님
+"또 내가 보니, 보좌와 네 생물 한가운데에, 그리고 장로들 한가운데에 갓 죽음을 당하신 것 같은 한 어린양께서 서 계셨습니다. 그 어린양은 일곱 뿔과 일곱 눈을 가지셨는데, 이것은 온 땅에 보내어지신 하나님의 일곱 영입니다. 그 어린양께서 나아오셔서 보좌에 앉아 계신 분의 오른손에 있는 *두루마리를* 받아 드셨습니다." (계 5:6-7)
 
-"보십시오, 처녀가 잉태하여 아들을 낳을 것이며, 그 이름을 임마누엘이라 부를 것입니다(임마누엘은 '우리와 함께 계시는 하나님'이라는 뜻이다)." (마 1:23)
+그리스도께서 죽음과 부활과 승천을 거치신 후에, 그분은 보좌와 네 생물 한가운데 서 계셨다. 부활하신 어린양께서 하늘에 있는 보좌 앞에 서 계셨다.
 
-"보십시오, 나는 이 시대가 종결될 때까지 항상 여러분과 함께 있습니다." (마 28:20 하반절)
+이 사자-어린양께서는 앉아 계시지 않고 서 계셨으며, 그분의 일곱 눈은 빛나고 있었다. 이것은 그분의 일이 마쳐지지 않았음을 가리킨다.…구속에 관한 한, 그리스도께서는 승천 후에 하늘에 계신 하나님의 오른편에 앉으셨다(히 1:3, 10:12). 그러나 하나님의 행정을 수행하시는 것에 관한 한, 그분은 여전히 그분의 승천 안에서 서 계신다.
 
-"여호와께서 말씀하셨다. '나의 임재가 너와 함께하며, 내가 너에게 안식을 주겠다.'" (출 33:14)
+구속하시는 어린양께서는 지금 우주의 중심, 곧 하나님의 보좌 앞에 서 계신다. 이것은 구속자께서 지금 하나님의 행정 안에 계심을 계시한다. 그분은 우주의 행정자이시며, 하나님의 경륜을 수행하고 계신다.…온 우주가 이 광경을 지켜보고 있다. 네 생물과 이십사 장로들과 무수한 천사들과 그 밖의 모든 피조물들이 완전히 깨어 정신을 차리고 지켜보고 있다. 이것이 그들이 "보좌에 앉아 계신 분과 어린양께 찬양과 존귀와 영광과 권능이 영원무궁히 있으시기를 바랍니다"(계 5:13)라고 선포하는 정황이다. 빛나며 타오르는 일곱 눈을 가지신 사자-어린양께서 우주의 중심에 서 계신다. 그분은 우리를 우리의 침묵과 차가움과 게으름에서 건져 내신다. 우리의 비전이 들려져서 영원하고 광대한 차원의 일을 성취하시는 이 어린양을 보아야 한다. (*신약의 결론*, 4225-4226, 4236-4237쪽)
 
-그리스도는 우리와 함께 계시는 하나님이십니다[마 1:23]. 이것은 마태복음 1장뿐 아니라, 주 예수님께서 "보십시오, 나는 이 시대가 종결될 때까지 항상 여러분과 함께 있습니다"(20절)라고 말씀하신 마태복음 28장에서도 계시되어 있습니다. 실제로, 온 신약은 하나의 임마누엘이며, 우리는 지금 이 위대한 임마누엘의 일부로서, 이 임마누엘은 새 하늘과 새 땅에 있는 새 예루살렘에서 영원토록 완결될 것입니다. (이사야서 라이프스타디, 제2판, 53-54쪽)
+## Cooperating with the Lord by Being His Faithful Stewards
 
-그리스도를 임마누엘로 삼아 살려면, 우리는 삼일 하나님의 완결이신 생명 주는 영이신 그분의 신성한 임재 안에 있어야 합니다(갈 5:25). 그리스도와 함께 살려면, 우리가 여전히 살되, 우리 자신만으로 사는 것이 아니라, 그리스도께서 임마누엘로서 우리 안에서 그리고 우리와 함께 사심으로 사는 것입니다. 삼일 하나님은 우리 밖에서 자신을 우리 존재 안으로 분배하려는 그분의 의도를 완성하실 수 없으시므로, 그분이 우리와 함께 계심은 반드시 내적이어야 합니다(2:20). 임마누엘은 우리의 생명이시요 인격이시며, 우리는 그분의 기관으로서 그분과 함께 한 사람으로 살아갑니다. 우리의 승리는 임마누엘, 곧 예수님의 임재에 달려 있습니다. 우리에게 주님의 임재가 있으면, 지혜와 통찰과 예견과 사물에 관한 내면의 지식이 있습니다. 주님의 임재가 우리에게 모든 것입니다.
+"Abide in Me and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me." (John 15:4)
 
-우리가 좋은 땅의 실재이신 모든 것을 포함하시는 그리스도를 들어가고 점유하고 누리려면, 주님의 임재에 의해 그렇게 해야 합니다. 주님은 모세에게 "나의 임재가 너와 함께하며, 내가 너에게 안식을 주겠다"(출 33:14)라고 약속하셨습니다. 하나님의 임재는 그분의 길이요, 그분의 백성에게 그들이 취해야 할 길을 보여 주는 '지도'입니다. (마태복음에 계시된 모든 것을 포함하시는 그리스도, 메시지 3, II.E.1-3, F)
+"And the Lord said, Who then is the faithful and prudent steward, whom the master will set over his service to give them their portion of food at the proper time?" (Luke 12:42)
 
-주님께서 모든 성도들이 그분의 얼굴을 구함으로 로스앤젤레스에 있는 교회를 인도해 주시기를 바랍니다!
+In order to carry out His economy, God must have faithful stewards, dispensers, who dispense the divine life supply to God's children. The Christian living is the living of grace, the experience of grace, so that we may carry out our stewardship of grace, the dispensing of grace. We need to be channels of the bountiful supply of the Spirit of grace, those who minister, who dispense, the word of God's grace to the saints for their growth in life and for their enjoyment of Christ. (*The Ministry of the Word and God's Dispensing for God's Economy*, msg. 5, II, D, E)
 
-## Bibles for America
+Please pray for all of the saints to continue to abide in the vine to receive the dispensing of grace so that all may be channels of supply to every neighborhood and community in Los Angeles.
 
-"Indeed days are coming, declares the Lord Jehovah, when I will send a hunger into the land, not a hunger for bread nor a thirst for water, but for hearing the words of Jehovah." (Amos 8:11)
+## 주님의 신실한 청지기들이 됨으로써 주님과 협력함
 
-We at Bibles for America (BfA) are so thankful to the Lord for the growing hunger for His Word we're witnessing among the people in this country. In addition to the Bible orders that are placed online with us directly, we are also receiving many more orders from both individual saints and churches for distribution materials, including Bibles, books, and tracts.
+"내 안에 거하십시오. 그러면 나도 여러분 안에 거하겠습니다. 가지가 포도나무에 붙어 있지 않으면 스스로 열매를 맺을 수 없는 것처럼, 여러분도 내 안에 거하지 않으면 열매를 맺을 수 없습니다." (요 15:4)
 
-This increase in orders can be attributed to the fellowship and burden regarding The Truth Sets US Free (TSUF). To find out more about TSUF and how you can participate, including how to order materials for personal distribution, please visit tsuf.us/participate.
+"주님께서 말씀하셨다. '신실하고 현명한 청지기가 되어, 주인이 맡긴 이들에게 제때에 일정한 양식을 나눠 줄 사람이 누구입니까?'" (눅 12:42)
 
-Please pray that orders from both the public and the saints would continue to increase, and that many more people would come to the full knowledge of the truth this year.
+하나님께서 자신의 경륜을 수행하시려면, 하나님은 반드시 신실한 청지기들, 곧 하나님의 자녀들에게 신성한 생명 공급을 분배하는 분배자들을 가지셔야 한다. 그리스도인의 생활은 은혜의 생활이고 은혜의 체험이며, 이로써 우리는 우리의 은혜의 청지기 직분, 곧 은혜의 분배를 수행할 수 있다. 우리는 은혜의 영의 풍성한 공급의 통로가 되어, 성도들의 생명 안에서의 자람과 그리스도에 대한 그들의 누림을 위해 그들에게 하나님의 은혜의 말씀을 공급하고 분배하는 자들이 되어야 한다. (*하나님의 경륜을 위한 말씀의 사역과 하나님의 분배*, 메시지 5, II, D, E)
 
-## 미주 성경 배부 (Bibles for America)
+모든 성도들이 포도나무 안에 계속 거하여 은혜의 분배를 받아, 로스앤젤레스의 모든 동네와 지역사회에 공급의 통로가 되도록 기도해 주십시오.
 
-"주 여호와의 선포이다. 참으로 그날들이 오고 있다. 그때 내가 땅에 굶주림을 보내리니 떡 없는 굶주림이나 물 없는 목마름 아닌 여호와의 말을 듣지 못하는 굶주림이라." (암 8:11)
+## Semiannual Training Registrations
 
-Bibles for America(BfA)에 있는 우리는 이 나라의 사람들 가운데서 목도하고 있는, 주님의 말씀에 대한 점점 증가하는 굶주림에 대해 주님께 너무나 감사드립니다. 직접 온라인으로 주문되는 성경 주문 외에도, 개인 성도들과 교회들 양쪽 모두에서 성경, 책, 전도 소책자 등 배부 자료에 대한 주문이 훨씬 더 많이 들어오고 있습니다.
+This Thursday, April 30 is the firm deadline for saints meeting with the church in Los Angeles to register for live, in-person attendance at the upcoming Semiannual Training, June 29 to July 4 in Anaheim ($205). Late registrations cannot be accepted. Sign-up and payment instructions are at [tinyurl.com/summertrainingla](http://tinyurl.com/summertrainingla). Registrations for local video trainings ($105) are due June 14. Please contact your district's registration coordinator if you have any questions.
 
-이 주문 증가는 The Truth Sets US Free(TSUF)에 관한 교통과 부담에 기인합니다. TSUF에 대한 더 자세한 정보와 참여 방법, 개인 배부용 자료 주문 방법을 알아보시려면 tsuf.us/participate 를 방문하시기 바랍니다.
+We hope that many saints will seize the opportunity to participate in this training. As the Lord leads, may many be led of the Lord to budget their time and money so that they can physically attend the meetings. Just as Timothy "closely followed" Paul's "teaching, conduct, purpose, faith, long-suffering, love, endurance" (2 Tim. 3:10), may we likewise closely follow—in a regulated way, girded up in our spirit—the Lord's up-to-date speaking so that the Lord may build His Body and prepare His bride.
 
-일반인과 성도들의 주문이 계속 증가하고, 올해 더 많은 사람들이 진리를 온전히 알게 되도록 기도해 주십시오.
+## 반기 훈련 등록
 
-## SCYP High School Conferences
+이번 목요일 4월 30일은 로스앤젤레스에 있는 교회의 성도들이 다가오는 반기 훈련(6월 29일~7월 4일, 애나하임, $205)에 대면 참석으로 등록할 수 있는 최종 마감일입니다. 늦은 등록은 받을 수 없습니다. 등록 및 결제 안내는 [tinyurl.com/summertrainingla](http://tinyurl.com/summertrainingla)에서 확인하실 수 있습니다. 지역 비디오 훈련($105)의 등록 마감은 6월 14일입니다. 문의 사항이 있으시면 각 지역의 등록 담당자에게 연락해 주십시오.
 
-The SoCal High School Brothers Conference concluded this past weekend while the Sisters Conference will be this weekend, March 13 to 15, at Oak Glen. The topic is "The Unique Way of Faith."
+많은 성도들이 이 훈련에 참여할 기회를 붙잡기를 바랍니다. 주님께서 인도하시는 대로, 많은 이들이 주님의 이끄심을 받아 시간과 재정을 안배하여 직접 집회에 참석할 수 있게 되기를 바랍니다. 디모데가 바울의 "가르침과 행실과 목적과 믿음과 오래 참음과 사랑과 인내"를 "긴밀히 따랐"(딤후 3:10)던 것처럼, 우리도 마찬가지로 우리의 영을 단단히 묶고 절제된 방식으로 주님의 최신의 말씀하심을 긴밀히 따라, 주님께서 그분의 몸을 건축하시고 그분의 신부를 예비하실 수 있게 되기를 바랍니다.
 
-Please pray:
-- For the faith of the brothers to be strengthened as they return to their ordinary days.
-- For the Lord to prepare the beings of the sisters, that their conscience would be pure and void of offense, their heart would be soft and open towards Him.
-- For each attendee to be freed from all distractions within and without so that they would thoroughly enjoy the Lord in these conferences.
-- That, following the conference, all the young people will learn to walk with God, by not overriding Him, and seize the golden opportunity to perfect the faith of those who have come before.
+## Sixth Grade Conference
 
-## SCYP 고등학생 특별 집회
+This weekend, May 1 to 3, the Southern California Sixth Grade Conference will be at Oak Glen. This year we have two young ones attending from Los Angeles. Please pray:
 
-남가주 고등학생 형제 특별 집회가 지난 주말에 마무리되었으며, 자매 특별 집회는 이번 주말인 3월 13일부터 15일까지 Oak Glen에서 열립니다. 주제는 "유일한 믿음의 길"입니다.
+- For the preparation of all the sixth graders in the churches for this time of being infused with the precious gospel of our Lord Jesus Christ.
+- For the Lord to be with all the speaking brothers, to anoint them with the Spirit and give them the utterance to speak a word that will penetrate the hearts of the sixth graders.
+- That the parents and serving ones will be in one accord to pray and care for the children in the best way, so that the Lord may dynamically save them and gain them for His purpose.
 
-기도해 주십시오:
-- 형제들이 일상으로 돌아갈 때 그들의 믿음이 강건하게 되도록.
-- 주님께서 자매들의 존재를 예비하셔서, 그들의 양심이 순결하고 거리낌이 없으며, 마음이 부드럽고 주님을 향해 열려 있도록.
-- 각 참석자가 안팎의 모든 방해에서 벗어나 이 특별 집회에서 주님을 철저히 누리도록.
-- 특별 집회 후에, 모든 영피플이 하나님을 앞지르지 않음으로써 하나님과 함께 걷는 것을 배우고, 앞서 온 이들의 믿음을 온전하게 하는 황금 같은 기회를 붙잡도록.
+## 6학년 특별 집회
 
-## ITERO
+이번 주말 5월 1일부터 3일까지 남가주 6학년 특별 집회가 오크 글렌에서 열립니다. 올해 로스앤젤레스에서는 두 명의 어린이가 참석합니다. 기도해 주십시오:
 
-The International Training for Elders and Responsible Ones will be in Anaheim from March 20 to 22. The general subject is "The Ministry of the Word and God's Dispensing for God's Economy."
+- 교회들에 있는 모든 6학년 학생들이 우리 주 예수 그리스도의 보배로운 복음으로 주입받는 이 시간을 위해 준비되도록.
+- 주님께서 말씀하시는 모든 형제들과 함께하시며, 그들을 그 영으로 기름 부으시고 6학년 학생들의 마음을 꿰뚫는 말씀을 할 수 있는 발언을 주시도록.
+- 학부모들과 봉사자들이 한마음 한뜻으로 기도하고 가장 좋은 방식으로 아이들을 돌봄으로써, 주님께서 그들을 역동적으로 구원하시고 그분의 목적을 위해 얻으시도록.
 
-Please pray for the rich and timely supply of Christ to be ministered to all the brothers that they may grow in life and be equipped further in their function and service. May the Lord gain and perfect all the brothers as able ministers of the New Testament, effective building material for the universal building up of the Body of Christ, and good stewards and serving ones in their respective local churches.
+## FTTT Gospel Trips
 
-## 국제 장로 및 책임 형제 훈련 (ITERO)
+The Full-time Training in Taipei concludes its five-week overseas gospel trips on April 30. We thank the Lord for blessing and covering all the teams in Europe, Asia and Africa. The trainees have been diligent to preach the gospel daily, share God's word and the riches of this ministry with others, and encourage the local saints to do the same.
 
-국제 장로 및 책임 형제 훈련이 3월 20일부터 22일까지 애나하임에서 열립니다. 전체 주제는 "말씀의 직분과 하나님의 경륜을 위한 하나님의 분배"입니다.
+In addition to the safe return of all the trainees to Taipei, please continue to pray for the follow-up shepherding of all the new contacts, that many become remaining fruit in the local churches. As John 15:16 reminds us, "I chose you, and I set you that you should go forth and bear fruit and that your fruit should remain, that whatever you ask the Father in My name, He may give you."
 
-그리스도의 풍성하고 시기적절한 공급이 모든 형제들에게 공급되어 그들이 생명 안에서 자라고, 그들의 기능과 봉사에서 더욱 성취되도록 기도해 주십시오. 주님께서 모든 형제들을 신약의 유능한 직사들로, 그리스도의 몸의 우주적 건축을 위한 효력 있는 건축 재료로, 그리고 각자의 지방 교회에서 좋은 청지기와 봉사자들로 얻으시고 온전하게 하시기를 바랍니다.
+## 타이페이 전시간 훈련(FTTT) 복음 여행
 
-## Italy – Shepherding Trips
+타이페이 전시간 훈련(FTTT)의 5주간의 해외 복음 여행이 4월 30일에 마무리됩니다. 유럽, 아시아, 아프리카에서의 모든 팀들을 축복하시고 덮어 주신 주님께 감사드립니다. 훈련생들은 매일 복음을 전하고, 하나님의 말씀과 이 사역의 풍성함을 다른 이들과 나누며, 지방 성도들도 동일하게 행하도록 격려하는 일에 부지런했습니다.
 
-The Italy gospel trip reports with detailed prayer burdens are available at tinyurl.com/olreports26. Please continue to pray for the shepherding of the seeking ones contacted during the Torch Relay and Olympics gospel trips. Pray that new lampstands be raised up in Turin, Bologna, Prato, Naples, and other key cities, and that the churches in Rome, Milan, and Vicenza be strengthened.
+모든 훈련생들이 타이페이로 안전하게 돌아갈 수 있도록, 그리고 새로운 모든 접촉자들에 대한 후속 목양을 위해 계속 기도해 주십시오. 많은 이들이 지방 교회들 안에서 남는 열매가 되도록 기도해 주십시오. 요한복음 15장 16절이 우리에게 일깨워 주듯이, "여러분이 나를 선택한 것이 아니라, 내가 여러분을 선택하여 세웠습니다. 이것은 여러분이 나가서 열매를 맺고, 그 열매가 계속 남아 있도록 하려는 것이며, 여러분이 내 이름 안에서 아버지께 무엇을 구하든지, 아버지께서 여러분에게 주시도록 하려는 것입니다."
 
-An application form is posted at tinyurl.com/italyshep for saints to participate in follow-up shepherding trips from now until the end of the year. We expect a good number of saints to join the international conference in Rome from May 9 to 10; specific trips are being planned around those dates.
+## Angola
 
-Saints who are burdened to give for the Lord's move in Italy may do so through the Church in Los Angeles designated for "Italy Olympics."
+Located on the western coast of Southern Africa, Angola is the second-largest Portuguese-speaking country after Brazil in both area and population. The capital and most populous city is Luanda, which has around 9 million people. At present, approximately 550 saints are enjoying the church life in Angola. In the three cities where the Lord's table has been established (Uíge, Huambo, Cuito-Bié), 300 saints participate in the Lord's Day meeting; the largest gathering is in Uíge, with about 250 saints.
 
-## 이탈리아 – 목양 방문
+A blending conference will take place in Huambo from May 1 to 3. Nearly 300 saints from around the country are expected to attend. Please uphold the following matters in prayer:
 
-이탈리아 복음 여행 보고서와 상세한 기도 부담은 tinyurl.com/olreports26 에서 확인하실 수 있습니다. 성화 봉송 릴레이와 올림픽 복음 여행 기간에 접촉된 구도자들의 목양을 위해 계속 기도해 주십시오. 토리노, 볼로냐, 프라토, 나폴리 및 기타 주요 도시에서 새 등잔대가 일으켜지고, 로마, 밀라노, 비첸차에 있는 교회들이 강건하게 되도록 기도해 주십시오.
+- For the ministry of the Word—that the Lord, through His speaking, gain a living and labor according to the vision of the age, and that this vision would change the age.
+- For the traveling saints—that the Lord cover and protect all those traveling from different cities of Angola to the conference.
+- For all serving ones—that their service minister life for the building up of the Body of Christ.
+- For the new ones coming from the eastern part of the Angola—that they see the vision of the local churches as the practical expression of the universal Body of Christ.
 
-연말까지 후속 목양 방문에 참여하실 성도들을 위한 신청서가 tinyurl.com/italyshep 에 게시되어 있습니다. 5월 9일부터 10일까지 로마에서 열리는 국제 특별 집회에 많은 성도들이 참가할 것으로 예상되며, 해당 기간 전후로 구체적인 방문 일정이 계획되고 있습니다.
+## 앙골라
 
-이탈리아에서의 주님의 움직임을 위해 헌금하고자 하는 부담이 있는 성도들은 로스앤젤레스에 있는 교회를 통해 "Italy Olympics"로 지정하여 헌금하실 수 있습니다.
+남아프리카의 서해안에 위치한 앙골라는 면적과 인구 모두에서 브라질에 이어 두 번째로 큰 포르투갈어 사용 국가입니다. 수도이자 가장 인구가 많은 도시는 약 900만 명이 거주하는 루안다입니다. 현재 약 550명의 성도들이 앙골라에서 교회 생활을 누리고 있습니다. 주의 상이 세워진 세 도시(우이제, 우암보, 쿠이토-비에)에서는 300명의 성도들이 주일 집회에 참여하고 있으며, 가장 큰 모임은 약 250명의 성도들이 모이는 우이제에 있습니다.
 
-## The Entire World Situation
+5월 1일부터 3일까지 우암보에서 섞임 특별 집회가 열립니다. 전국에서 약 300명의 성도들이 참석할 것으로 예상됩니다. 다음 사항을 위해 기도해 주십시오:
 
-"…For His dominion is an eternal dominion, and His kingdom is from generation to generation; and all the inhabitants of earth are considered as nothing, but He does according to His will in the army of heaven and among the inhabitants of the earth; and there is no one who can resist His hand or say to Him, What are You doing?" (Dan. 4:34-35)
-
-The entire world situation is under the rule of the heavens by the God of the heavens in order to give Christ the preeminence in all things, to cause Christ to have the first place in everything. (*Experiencing, Enjoying, and Expressing Christ (3)*, msg. 9, IV.F, 1)
-
-Regarding Israel, Iran and the Middle East, please continue to pray:
-- That the Lord would do His will in the midst of the current situation and lead the world to the condition He needs for His move, so that many may be saved and the church may be edified.
-- That the Lord would preserve His people and keep them from all danger and harm.
-- That the inner man of the saints would be strengthened to experience the Lord's inner movement and His organic salvation in the midst of any situation.
-
-## 전 세계 정세
-
-"…그분의 통치권은 영원한 통치권이요 그분의 왕국은 대대에 이르기 때문이다. 땅의 모든 주민은 아무것도 아닌 것으로 여겨지나 그분은 하늘의 군대에서나 땅의 주민들 가운데서나 그분의 뜻대로 행하시니 그분의 손을 막거나 그분께 '무얼 하시는 겁니까?' 할 이가 아무도 없다." (단 4:34하반절-35)
-
-전 세계 정세는 하늘의 하나님에 의해 하늘의 통치 아래 있으며, 이것은 그리스도에게 만사에서 으뜸이 되게 하시고, 그리스도께서 모든 것에서 첫째 자리를 차지하시게 하기 위한 것입니다. (그리스도를 체험하고 누리고 표현함 (3), 메시지 9, IV.F, 1)
-
-이스라엘, 이란, 중동에 관하여, 계속 기도해 주십시오:
-- 주님께서 현 상황 가운데서 그분의 뜻을 행하시고, 세계를 그분의 움직임에 필요한 상태로 이끄셔서, 많은 사람들이 구원받고 교회가 건축되도록.
-- 주님께서 그분의 백성을 보존하시고 모든 위험과 해로움에서 지켜 주시도록.
-- 성도들의 속사람이 강건하게 되어 어떤 상황 가운데서도 주님의 내적인 움직임과 그분의 유기적인 구원을 체험하도록.
+- 말씀의 사역을 위해 — 주님께서 그분의 말씀하심을 통해 시대의 이상에 따른 생활과 수고를 얻으시고, 이 이상이 시대를 전환하도록.
+- 여행하는 성도들을 위해 — 주님께서 앙골라의 여러 도시에서 특별 집회로 여행하는 모든 이들을 덮으시고 보호해 주시도록.
+- 모든 봉사자들을 위해 — 그들의 봉사가 그리스도의 몸의 건축을 위해 생명을 공급하도록.
+- 앙골라 동부 지역에서 오는 새로운 이들을 위해 — 그들이 지방 교회들을 우주적인 그리스도의 몸의 실제적인 표현으로 보는 이상을 보도록.
