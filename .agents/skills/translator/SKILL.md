@@ -146,8 +146,12 @@ input.html
 
 ## 예시 재생성
 
-`examples.md`는 2026 기도문 아카이브 Google Doc에서 자동 추출됩니다. 아카이브에 새 페어가 추가되면 다음 명령으로 갱신:
+`examples.md`는 2026 기도문 아카이브 Google Doc에서 자동 추출됩니다. `gws`는 사용하지 않습니다.
+
+아카이브 URL: `https://docs.google.com/document/d/1cGD3pPm6FoiFWqL42pDkzu_QLz0UFvKgCqFoT60OGko`
+
+아카이브에 새 페어가 추가되면 Codex의 Google Drive 플러그인으로 해당 Google Doc을 `text/markdown` 형식으로 export/fetch하고, 반환된 `download_url`의 Markdown 파일을 임시 경로에 내려받은 뒤 다음 명령으로 갱신합니다:
 
 ```bash
-python3 scripts/extract_pairs.py > resources/examples.md
+python3 scripts/extract_pairs.py /tmp/translator-archive.md > resources/examples.md
 ```

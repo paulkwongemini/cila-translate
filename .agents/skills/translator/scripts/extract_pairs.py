@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
-"""Extract paired EN/KR sections from the 2026 prayer archive Google Doc."""
+"""Extract paired EN/KR sections from an exported prayer archive Markdown file."""
 
-import json
 import re
-import subprocess
 import sys
-
-DOC_ID = "1cGD3pPm6FoiFWqL42pDkzu_QLz0UFvKgCqFoT60OGko"
 
 def has_korean(text):
     return bool(re.search(r"[가-힯]", text))
@@ -28,45 +24,42 @@ def classify(text):
         return "en"
     return "other"
 
-def extract_paragraph_text(p):
-    parts = []
-    for el in p.get("elements", []):
-        tr = el.get("textRun")
-        if tr:
-            parts.append(tr.get("content", ""))
-    return "".join(parts)
+def clean_exported_markdown(text):
+    """Undo Google Docs Markdown escaping that is noisy in translation examples."""
+    text = text.strip()
+    text = re.sub(r"^(\*\*|__)(.*)(\*\*|__)$", r"\2", text)
+    return re.sub(r"\\([\\`*_{}\[\]()#+\-.!|>])", r"\1", text)
 
-def fetch_doc():
-    result = subprocess.run(
-        ["gws", "docs", "documents", "get",
-         "--params", json.dumps({"documentId": DOC_ID}),
-         "--format", "json"],
-        capture_output=True, text=True, check=True,
-    )
-    return json.loads(result.stdout)
+def read_markdown_blocks(markdown):
+    """Flatten exported Markdown into a list of (heading_level, text) blocks."""
+    blocks = []
+    body_lines = []
 
-def walk_blocks(content, blocks):
-    """Flatten doc body into a list of (heading_level, text) blocks."""
-    for el in content:
-        if "paragraph" in el:
-            p = el["paragraph"]
-            style = p.get("paragraphStyle", {}).get("namedStyleType", "NORMAL_TEXT")
-            text = extract_paragraph_text(p).rstrip("\n")
-            if not text.strip():
-                continue
-            level = 0
-            if style == "HEADING_1":
-                level = 1
-            elif style == "HEADING_2":
-                level = 2
-            elif style == "HEADING_3":
-                level = 3
-            blocks.append((level, text))
-        elif "table" in el:
-            # Skip tables for simplicity (none expected in this doc)
-            for row in el["table"].get("tableRows", []):
-                for cell in row.get("tableCells", []):
-                    walk_blocks(cell.get("content", []), blocks)
+    def flush_body():
+        nonlocal body_lines
+        while body_lines and not body_lines[0].strip():
+            body_lines.pop(0)
+        while body_lines and not body_lines[-1].strip():
+            body_lines.pop()
+        if body_lines:
+            text = "\n".join(body_lines)
+            blocks.append((0, clean_exported_markdown(text)))
+        body_lines = []
+
+    for line in markdown.splitlines():
+        heading = re.match(r"^(#{1,3})\s+(.*)$", line)
+        if heading:
+            flush_body()
+            level = len(heading.group(1))
+            text = clean_exported_markdown(heading.group(2))
+            if text:
+                blocks.append((level, text))
+            continue
+        if re.match(r"^\s*-{3,}\s*$", line):
+            continue
+        body_lines.append(line.rstrip())
+    flush_body()
+    return blocks
 
 def group_into_sections(blocks):
     """Group blocks into sections by HEADING_2 boundaries within each week.
@@ -99,9 +92,7 @@ def group_into_sections(blocks):
             lang = classify(text)
             current_section = {"title": text.strip(), "lang": lang, "body": []}
             continue
-        # Body text
         if current_section is None:
-            # Body before any HEADING_2 - skip or attach to a synthetic section
             continue
         current_section["body"].append(text)
     flush()
@@ -177,9 +168,19 @@ def render_markdown(pairs):
     return "\n".join(out)
 
 def main():
-    doc = fetch_doc()
-    blocks = []
-    walk_blocks(doc["body"]["content"], blocks)
+    if len(sys.argv) > 2:
+        print("Usage: extract_pairs.py [archive.md]", file=sys.stderr)
+        sys.exit(2)
+    if len(sys.argv) == 2:
+        with open(sys.argv[1], encoding="utf-8") as f:
+            markdown = f.read()
+    else:
+        markdown = sys.stdin.read()
+    if not markdown.strip():
+        print("No Markdown input provided.", file=sys.stderr)
+        sys.exit(2)
+
+    blocks = read_markdown_blocks(markdown)
     sections = group_into_sections(blocks)
     pairs = pair_sections(sections)
 
