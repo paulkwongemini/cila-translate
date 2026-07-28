@@ -1,6 +1,6 @@
 ---
 name: translator
-description: Translate English church documents to Korean with accurate Bible verse references. Use when user says "번역해 줘" or requests document translation.
+description: Translate the repo-root prayer.pdf church document from English to Korean with accurate Bible verse references. Use when user says "번역해 줘" or requests the weekly prayer PDF translation.
 ---
 
 # 교회 문서 번역 스킬
@@ -13,15 +13,30 @@ Codex에서 `resources/`와 `scripts/` 경로는 이 `SKILL.md`가 있는 스킬
 
 다음과 같은 경우에 이 스킬을 사용하세요:
 - 사용자가 "번역해 줘"라고 요청할 때
-- `input.html` 또는 다른 교회 문서 번역이 필요할 때
+- Repo 루트의 `prayer.pdf` 영문 교회 문서 번역이 필요할 때
 - 성경 구절 참조가 포함된 문서를 번역할 때
 
 ## 번역 프로세스
 
-### 1단계: 입력 파일 읽기
+### 1단계: `prayer.pdf` 입력 파일 읽기
+
+Repo 루트의 `prayer.pdf`를 유일한 원문으로 사용합니다. 날짜나 다른 태그를 파일명에 붙이지 않습니다. `input.html`은 사용하지 않습니다.
+
+1. `pdf` 스킬을 사용하여 PDF 정보와 페이지 수를 확인합니다.
+2. `pdftotext -layout`으로 전체 텍스트를 추출합니다.
+3. `pdftoppm`으로 모든 페이지를 이미지로 렌더링하고, 추출된 텍스트를 각 페이지 원본과 대조합니다.
+4. 텍스트 레이어가 없거나 추출 결과가 불완전한 스캔 PDF이면 OCR 또는 렌더링된 페이지의 시각 판독으로 원문을 복원합니다.
+5. 합자(`fi`, `ff` 등), 특수문자, 불릿, 줄바꿈, 제목, 날짜, 링크가 추출 과정에서 누락되거나 깨진 경우 렌더링된 페이지를 기준으로 복원합니다.
+6. PDF에 포함된 하이퍼링크는 가능한 경우 PDF 주석/링크 메타데이터에서 실제 URL을 확인하여 결과에 유지합니다.
+
 ```bash
-# 기본 입력 파일 읽기
-input.html
+# PDF 정보와 텍스트 확인
+pdfinfo prayer.pdf
+pdftotext -layout prayer.pdf -
+
+# 전체 페이지 렌더링 후 시각적으로 대조
+mkdir -p tmp/pdfs
+pdftoppm -png -r 150 prayer.pdf tmp/pdfs/translator-input
 ```
 
 ### 2단계: 성경 구절 식별 및 가져오기
@@ -132,16 +147,16 @@ input.html
 
 사용자가 "번역해 줘"라고 요청하면:
 
-1. `input.html` 읽기
+1. Repo 루트의 `prayer.pdf`를 텍스트로 추출하고 모든 페이지 렌더링과 대조하기
 2. 성경 구절 참조 찾기 (예: "John 3:16")
 3. `bible-verse-getter`로 John 3:16 한국어 구절 가져오기
 4. 용어집(WORDS.csv) 및 예시(examples.md) 참고하여 번역
-5. `translated.md`에 저장
+5. `Announcements` 섹션을 제거하고 `translated.md`에 저장
 
 ## 참고 파일
 - 용어집: `resources/WORDS.csv`
 - 영-한 번역 예시: `resources/examples.md`
-- 입력: `input.html`
+- 입력: Repo 루트의 `prayer.pdf`
 - 출력: `translated.md`
 
 ## 예시 재생성

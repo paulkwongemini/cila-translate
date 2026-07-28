@@ -1,93 +1,109 @@
-# **2026년 5월 31일 주간 기도문**
+# **2026년 7월 19일 주간 기도문**
 
-## "Give Them Food"
+## Daniel and His Companions
 
-"Who then is the faithful and prudent slave, whom the master has set over his household to give them food at the proper time? Blessed is that slave whom his master, when he comes, will find so doing." (Matt. 24:45-46)
+“To him who overcomes, to him I will give to eat of the tree of life, which is in the Paradise of God.” —Rev. 2:7b
 
-"But we will continue steadfastly in prayer and in the ministry of the word." (Acts 6:4)
+“Your words were found and I ate them, and Your word became to me the gladness and joy of my heart, for I am called by Your name, O Jehovah, God of hosts.” —Jer. 15:16
 
-In order for us to follow the Lamb and go on to maturity to become the firstfruits, we must be faithful in service in the Lord's commission to give God as food to the members of His household so that we may win Christ as our reward in the coming kingdom. God has a household and a household administration, an economy, to dispense Himself as food to the members of His household for His expression. God has set faithful and prudent slaves over His household as household administrators, stewards, channels of supply, to give His people food at the proper time.
+The principle of the Lord’s recovery is seen with “Daniel and his companions” (Hananiah, Mishael, and Azariah), as overcomers who were absolutely one with God in their victory over Satan’s devices. Nebuchadnezzar’s devilish temptation was first to seduce the four brilliant young descendants of God’s defeated elect, Daniel and his three companions, to be defiled by partaking of his unclean food, food offered to idols. For Daniel and his companions to eat that food would have been to take in the defilement, to take in the idols, and thus to become one with Satan. When Daniel and his companions refused to eat Nebuchadnezzar’s unclean food and chose instead to eat vegetables (Dan. 1:8-16), in principle they rejected the tree of the knowledge of good and evil (cf. Gen. 3:1-6) and took the tree of life, which caused them to be one with God. The Lord’s recovery is the recovery of the eating of Jesus for the building up of the church. We can eat Jesus by eating His words and by being careful to contact and be with those who call on Him out of a pure heart.
 
-"Give them food" refers to ministering the word of God and Christ as the life supply to the believers in the church. Christ as the life-giving Spirit is our food, embodied and realized in the word of life. In order to enjoy the Lord as our spiritual food so that we can feed others, we must pray over and muse on His word, tasting and enjoying it through careful considering. We must devote ourselves to prayer and the ministry of the word. (*Experiencing, Enjoying, and Expressing Christ (4)*, msg. 9, III, A-C, C.1-2)
+The center of Daniel 6 is man’s prayer for the carrying out of God’s economy. Daniel depended on prayer to do what man could not do and to understand what man could not understand. There is no other way to bring God’s economy into fullness and into fulfillment except by prayer. This is the inner secret of this chapter. Daniel prayed three times daily with his windows open toward Jerusalem. Through his gracious prayer God brought Israel back to their fathers’ land (v. 10; cf. 1 Kings 19:12, 18). God will listen to our prayer when our prayer is toward Christ (typified by the Holy Land), toward the kingdom of God (typified by the holy city), and toward the house of God (typified by the holy temple) as the goal in God’s eternal economy. (*Noah, Daniel, and Job—Patterns of Living an Overcoming Life…*, msg. 3, I, II.A-E, VII.A-B)
 
-## "그들에게 양식을 주십시오"
+## 다니엘과 그의 동반자들
 
-"신실하고 현명한 노예가 되어, 주인이 맡긴 집안 식구들에게 제때에 양식을 나눠 줄 사람이 누구입니까? 주인이 와서 노예가 그렇게 하고 있는 것을 본다면, 그 노예는 복이 있습니다." (마 24:45-46)
+“이기는 이에게는 내가 하나님의 낙원에 있는 생명나무를 주어서 먹게 할 것이다.” (계 2:7하)
 
-"우리는 기도하는 것과 그리고 말씀의 사역을 꾸준히 계속할 것입니다." (행 6:4)
+“주님의 말씀을 발견하고 제가 그것을 먹었더니 주님의 말씀이 제게 마음의 즐거움과 기쁨이 되었습니다. 오, 여호와 만군의 하나님! 이는 제가 주님의 이름으로 불리는 까닭입니다.” (렘 15:16)
 
-우리가 어린양을 따르고 성숙에 이르도록 전진하여 첫 열매들이 되려면, 우리는 주님의 위임 안에서 신실하게 봉사해야 합니다. 그 위임은 하나님의 집안 식구들에게 하나님을 양식으로 주는 것이며, 그럴 때 우리는 오는 왕국에서 그리스도를 우리의 보상으로 얻을 수 있습니다. 하나님은 한 집안과 집안 행정, 곧 경륜을 가지고 계십니다. 이 경륜은 그분의 표현을 위해 그분의 집안 식구들에게 그분 자신을 양식으로 분배하는 것입니다. 하나님은 그분의 백성에게 제때에 양식을 주도록, 신실하고 현명한 노예들을 그분의 집안 위에 집안 관리자들, 청지기들, 공급의 통로들로 세우셨습니다.
+주님의 회복의 원칙은 사탄의 계략을 이기고 하나님과 절대적으로 하나였던 이기는 이들인 “다니엘과 그의 동반자들”(하나냐, 미사엘, 아사랴)에게서 볼 수 있다. 느부갓네살의 마귀적인 유혹은 먼저 패배한 하나님의 선민의 후손들 가운데 총명한 네 청년, 곧 다니엘과 그의 세 동반자를 꾀어 우상들에게 바쳐진 그의 부정한 음식을 먹게 함으로 더럽히는 것이었다. 다니엘과 그의 동반자들이 그 음식을 먹는 것은 더러움과 우상들을 받아들여 사탄과 하나 되는 것이었다. 다니엘과 그의 동반자들이 느부갓네살의 부정한 음식을 먹기를 거절하고 대신 채소를 먹기로 선택했을 때(단 1:8-16), 원칙적으로 그들은 선과 악의 지식나무를 거절하고(비교 창 3:1-6) 생명나무를 취했으며, 이로써 하나님과 하나 되었다. 주님의 회복은 교회의 건축을 위해 예수님을 먹는 것을 회복하는 것이다. 우리는 그분의 말씀을 먹고 순수한 마음으로 그분을 부르는 이들을 주의 깊게 접촉하고 그들과 함께함으로써 예수님을 먹을 수 있다.
 
-"그들에게 양식을 주십시오"라는 말은 교회 안의 믿는 이들에게 하나님의 말씀과 그리스도를 생명 공급으로 공급하는 것을 가리킵니다. 생명 주는 영이신 그리스도는 우리의 양식이시며, 생명의 말씀 안에 체현되시고 실재화되십니다. 우리가 다른 사람들을 먹일 수 있도록 주님을 우리의 영적인 양식으로 누리려면, 우리는 그분의 말씀을 기도로 읽고 묵상하며, 세심하게 숙고함으로써 그 말씀을 맛보고 누려야 합니다. 우리는 기도하는 것과 말씀의 사역에 자신을 드려야 합니다. (*그리스도를 체험하고 누리고 표현함(4)*, 메시지 9, III, A-C, C.1-2)
+다니엘서 6장의 중심은 하나님의 경륜을 수행하기 위한 사람의 기도이다. 다니엘은 사람이 할 수 없는 것을 하고 사람이 이해할 수 없는 것을 이해하기 위해 기도에 의지했다. 기도 외에는 하나님의 경륜을 충만하게 하고 성취할 다른 길이 없다. 이것이 이 장의 내적인 비결이다. 다니엘은 창문을 예루살렘 쪽으로 열어 놓고 하루에 세 번 기도했다. 하나님은 그의 은혜로운 기도를 통해 이스라엘을 그들 조상들의 땅으로 돌아오게 하셨다(10절, 비교 왕상 19:12, 18). 우리의 기도가 하나님의 영원한 경륜의 목표인 그리스도(거룩한 땅으로 예표됨)와 하나님의 왕국(거룩한 성으로 예표됨)과 하나님의 집(거룩한 성전으로 예표됨)을 향할 때, 하나님은 우리의 기도를 들으실 것이다. (*노아, 다니엘, 욥—이기는 생활을 사는 본보기들…*, 메시지 3, I, II.A-E, VII.A-B)
 
 ## 2026 FIFA World Cup Gospel Outreach
 
-The 2026 World Cup action kicks off in Los Angeles on Thursday, June 11 with a FIFA Fan Festival at the LA Memorial Coliseum near USC. The following day, the first of eight matches will take place at SoFi Stadium in Inglewood. Additional fan zones will pop up throughout the region at locations such as the Original Farmers Market and Union Station.
+From June 11 to July 19, saints went out into the communities of Los Angeles to distribute Bibles and tracts near World Cup-related gatherings. Last weekend, during the last two days of FIFA, over 70 saints including a few young people participated in giving out Bibles in Burbank. Over 600 English copies and over 200 Spanish copies were given out.
 
-With local residents as well as visitors from around the world gathering to watch these events, we believe this is the sovereign arrangement of the Lord for us to go forth and preach the gospel to the nations (Matt. 28:19). Our outreach, which includes Bible distribution, will be focused mainly around fan festivals and watch parties, as these present the greatest opportunity for contacting people. The first distribution dates are June 11 and 12. There will be no scheduled times during the Semiannual Training.
+Please pray:
 
-We hope many saints - from all halls, districts, and languages - will consider joining us in this endeavor. Young people are welcome if accompanied by a parent. Go to [www.churchinlosangeles.org/gospel-opportunities](http://www.churchinlosangeles.org/gospel-opportunities) to see the invitation letter and schedule of outreach opportunities.
-
-Please pray that more saints sign up, including parents with young people and those who have no prior experience in this kind of activity. May the Lord prepare the hearts of many people, especially ones who are local to the area, to hear the living word of God.
+- That all the saints in the church be empowered to embrace a gospel living, “ready in season and out of season” (2 Tim. 4:2), boldly proclaiming God’s word to those around them.
+- That each recipient be inspired and reminded to open their New Testament daily, and that the Lord grant them a spirit of wisdom and revelation concerning His divine economy.
+- That the Lord anoint the follow-up and gain remaining fruit for His purpose.
 
 ## 2026 FIFA 월드컵 복음 전파
 
-2026 월드컵 행사는 6월 11일 목요일, USC 인근 LA 메모리얼 콜리세움에서 열리는 FIFA 팬 페스티벌과 함께 로스앤젤레스에서 시작됩니다. 다음 날, 여덟 경기 중 첫 경기가 잉글우드의 SoFi 스타디움에서 열릴 것입니다. 추가 팬 존들도 오리지널 파머스 마켓과 유니언 스테이션 같은 장소를 포함하여 지역 곳곳에 마련될 것입니다.
+6월 11일부터 7월 19일까지 성도들이 월드컵 관련 모임 인근에서 성경과 전도 소책자를 배포하기 위해 로스앤젤레스의 지역 사회로 나아갔습니다. 지난 주말 FIFA 월드컵의 마지막 이틀 동안 몇 명의 영피플을 포함한 70명 이상의 성도들이 버뱅크에서 성경을 배포하는 데 참여했습니다. 영어 성경 600권 이상과 스페인어 성경 200권 이상이 배포되었습니다.
 
-이러한 행사들을 보기 위해 지역 주민들뿐 아니라 전 세계에서 온 방문객들이 함께 모이는 가운데, 우리는 이것이 우리가 나아가 모든 민족에게 복음을 전파하도록 하신 주님의 주권적인 안배라고 믿습니다(마 28:19). 성경 배포를 포함하는 우리의 복음 전파는 주로 팬 페스티벌과 단체 관람 모임 주변에 집중될 것입니다. 이러한 모임들이 사람들을 접촉할 가장 큰 기회를 제공하기 때문입니다. 첫 배포 날짜는 6월 11일과 12일입니다. 반기 훈련 기간에는 예정된 시간이 없을 것입니다.
+기도해 주십시오:
 
-우리는 모든 홀과 모든 지역과 모든 언어권의 많은 성도들이 이 일에 동참하는 것을 고려해 주시기를 바랍니다. 영피플은 부모와 동반할 경우 참여할 수 있습니다. 초청장과 복음 전파 기회 일정은 [www.churchinlosangeles.org/gospel-opportunities](http://www.churchinlosangeles.org/gospel-opportunities)에서 볼 수 있습니다.
+- 교회 안의 모든 성도가 능력을 받아 “때를 얻든지 못 얻든지 항상 준비하고 있으면서”(딤후 4:2), 주변 사람들에게 하나님의 말씀을 담대하게 선포하는 복음 생활을 받아들이도록.
+- 성경을 받은 각 사람이 날마다 신약 성경을 펼치도록 감동받고 일깨움을 받으며, 주님께서 그들에게 그분의 신성한 경륜에 관한 지혜와 계시의 영을 주시도록.
+- 주님께서 후속 목양에 기름 바르시고 그분의 목적을 위해 남아 있는 열매를 얻으시도록.
 
-더 많은 성도들이 신청하도록, 곧 영피플 자녀와 함께하는 부모들과 이런 종류의 활동에 이전 경험이 없는 성도들도 신청하도록 기도해 주십시오. 주님께서 많은 사람들, 특히 이 지역에 거주하는 사람들의 마음을 준비시키셔서 살아 있는 하나님의 말씀을 듣게 하시기를 바랍니다.
+## New Church Website
 
-## LA Family Bible Camp and Truth School
+The [Church in Los Angeles website](http://www.churchinlosangeles.org) has been newly updated! The new site is designed to be a warm, informative space for people searching for a church or seeking to know Christ.
 
-This Lord's Day, June 7 is the final deadline to register for our LA Summer 2026 Family Bible Camp and Truth School, June 20 to 23. The event will kick off on a Saturday in LA before moving to Oak Glen the following Lord's Day evening through Tuesday afternoon.
+Please pray:
 
-We are burdened for all our young people and families with young children, as well as young working saints and college students as serving ones, to participate in this sanctified time to enjoy the Lord together in a focused way. May the saints be reminded to register and released to attend!
+- That the Lord use the new website as “an opened door” (Rev. 3:8) for people in Los Angeles who want to learn more about the Christian faith.
+- For those seeking a church community, that our online presence may welcome them to “pursue righteousness, faith, love, peace with those who call on the Lord out of a pure heart” (2 Tim. 2:22).
 
-## LA 가족 성경 캠프와 진리 학교
+## 새로운 교회 웹사이트
 
-이번 주일인 6월 7일은 6월 20일부터 23일까지 열리는 LA 2026 여름 가족 성경 캠프와 진리 학교 등록의 최종 마감일입니다. 이 행사는 토요일에 LA에서 시작된 후, 다음 주일 저녁부터 화요일 오후까지 오크 글렌에서 이어질 것입니다.
+[로스앤젤레스에 있는 교회 웹사이트](http://www.churchinlosangeles.org)가 새롭게 개편되었습니다! 새로운 웹사이트는 교회를 찾거나 그리스도를 알기 원하는 사람들에게 따뜻하고 유익한 공간이 되도록 만들어졌습니다.
 
-우리는 우리의 모든 영피플과 어린 자녀가 있는 가정들뿐 아니라 봉사자들인 젊은 직장인 성도들과 대학생들도 이 거룩히 분별된 시간에 참여하여 집중된 방식으로 함께 주님을 누리기를 부담합니다. 성도들이 등록하도록 상기되고 참석하도록 해방되기를 바랍니다!
+기도해 주십시오:
 
-## FTTA
+- 주님께서 새로운 웹사이트를 그리스도인의 믿음에 관해 더 알기 원하는 로스앤젤레스 사람들을 위한 “열린 문”(계 3:8)으로 사용하시도록.
+- 교회 공동체를 찾는 이들이 우리의 온라인 공간을 통해 환영받고, “순수한 마음으로 주님을 부르는 사람들과 함께 의와 믿음과 사랑과 화평을 추구”하도록(딤후 2:22).
 
-The application deadline for the Fall 2026 term of the Full-time Training in Anaheim has been extended to Lord's Day, June 21. The Training provides a unique atmosphere for producing vital, functioning, and overcoming members of the Body of Christ for the fulfillment of God's eternal purpose.
+## North America Chinese-speaking Perfecting Training
 
-Please pray for the Lord to gain many more recent college graduates and young working saints who respond to His calling to be trained - to love Him, pursue Him, and be perfected in life and function to serve Him for His move all over the earth.
+This summer’s perfecting training on “Building the House of God” for registered Chinese-speaking saints will take place in two phases—July 22 to 26 in New York and July 29 to August 2 in Fremont.
 
-## 애나하임 전시간 훈련(FTTA)
+Please pray:
 
-애나하임 전시간 훈련 2026년 가을 학기 지원 마감일이 주일인 6월 21일로 연장되었습니다. 훈련은 하나님의 영원한 목적을 성취하기 위해 활력 있고, 기능을 발휘하며, 이기는 그리스도의 몸의 지체들을 산출하는 독특한 분위기를 제공합니다.
+- That the Lord strengthen, protect, and prepare the saints registered for this training.
+- That He cover all the practical needs so that the burden of the training may be fully released.
+- That many Chinese-speaking saints in the churches be perfected in truth, life, and service.
 
-주님께서 그분의 부르심에 반응하여 훈련받고자 하는 더 많은 최근 대학 졸업생들과 젊은 직장인 성도들을 얻으시도록 기도해 주십시오. 그들이 주님을 사랑하고 추구하며, 온 땅에서의 그분의 움직임을 위해 그분을 섬길 수 있도록 생명과 기능에서 온전하게 되도록 기도해 주십시오.
+## 북미 중국어권 온전하게 하는 훈련
 
-## European Young People's Work
+등록한 중국어권 성도들을 위한 이번 여름 “하나님의 집을 건축함” 온전하게 하는 훈련이 두 차례에 걸쳐 진행됩니다. 1차 훈련은 7월 22일부터 26일까지 뉴욕에서, 2차 훈련은 7월 29일부터 8월 2일까지 프리몬트에서 열립니다.
 
-In coordination with the brothers in Europe, we want to provide a way to send offerings to support the upcoming European Young People's Conference in Poland this year, which will take place in the last week of July. The current need is approximately $40,000 to support the saints participating from different countries who are not able to afford the conference. May this need be met in the Body.
+기도해 주십시오:
 
-As the Lord leads, saints who are burdened to participate financially may do so through [The Church in Los Angeles](http://www.churchinlosangeles.org/members/offerings) designated for "European Young People's Work."
+- 주님께서 이 훈련에 등록한 성도들을 강건하게 하시고 보호하시며 준비시키시도록.
+- 주님께서 모든 실제적인 필요를 덮으셔서 훈련의 부담이 온전히 해방되도록.
+- 교회들 안의 많은 중국어권 성도들이 진리와 생명과 봉사에서 온전하게 되도록.
 
-## 유럽 영피플 사역
+## European Young People and Family Conference
 
-유럽의 형제들과 동역하여, 우리는 올해 7월 마지막 주에 폴란드에서 열릴 예정인 유럽 영피플 특별 집회를 지원하기 위한 헌금을 보낼 수 있는 길을 제공하고자 합니다. 현재 필요한 금액은 약 4만 달러이며, 이는 여러 나라에서 참여하는 성도들 가운데 특별 집회 비용을 감당할 수 없는 이들을 지원하기 위한 것입니다. 이 필요가 몸 안에서 채워지기를 바랍니다.
+The annual EYPFC will take place July 26 to August 1 in Małe Ciche, Poland. This year's gathering is expected to be the largest yet, with around 1,800 saints expected—approximately 1,000 in the Young People's Conference and 800 with families. From Los Angeles, a group of 18 will be attending, including 10 young people, 3 serving ones, and a family of 5.
 
-주님의 인도하심에 따라 재정적으로 참여하고자 부담이 있는 성도들은 [로스앤젤레스에 있는 교회](http://www.churchinlosangeles.org/members/offerings)를 통해 "European Young People's Work"로 지정하여 헌금할 수 있습니다.
+Please pray:
 
-## France and Italy - Shepherding Trips
+- For the Lord to prepare the vessels of each attendee, that each one be poor in spirit, be pure in heart, have a conscience void of offense, and be empty and unloaded to receive a fresh revelation of the Lord and His present move.
+- For the coordination and fellowship among all the participating saints, that there may be the sweet oneness and one accord upon which the Lord can pour out His blessing.
+- That the Lord use this time to raise up the next generation of young people and families in Europe to advance His move for His return.
+- For the binding of the enemy and for the preservation of all the saints in travel and health.
 
-Thank the Lord for all that He has accomplished through His Body in both France and Italy. As a result of the Olympics gospel trips in these two countries, new churches have been raised up, existing churches have been strengthened, the saints are burdened for the gospel, and the Lord is adding together day by day those who are being saved (Acts 2:47).
+## 유럽 영피플 특별 집회 및 가족 특별 집회
 
-Please continue to pray for the shepherding of the seeking ones contacted during and since the Torch Relay and Olympics gospel trips - that they continue steadfastly, be shepherded into the church life, and become remaining fruit. Pray for saints to migrate and for laborers to visit as a result of the Lord's thrusting out, so that both short-term and long-term there will be workers to care for the Lord's needs throughout Italy and French-speaking Europe.
+연례 유럽 영피플 및 가족 특별 집회(EYPFC)가 7월 26일부터 8월 1일까지 폴란드 마웨 치헤(Małe Ciche)에서 열립니다. 올해 특별 집회는 역대 최대 규모가 될 것으로 예상되며, 영피플 특별 집회에 약 1,000명, 가족들과 함께 약 800명 등 약 1,800명의 성도가 참석할 예정입니다. 로스앤젤레스에서는 영피플 10명과 봉사자 3명과 5인 가족 한 가정을 포함한 18명의 일행이 참석합니다.
 
-For those who are burdened and available to participate in follow-up shepherding trips, see the invitation and application form for France ([tinyurl.com/franceshep](https://tinyurl.com/franceshep)) and Italy ([tinyurl.com/italyshep](https://tinyurl.com/italyshep)).
+기도해 주십시오:
 
-## 프랑스와 이탈리아 - 목양 여행
+- 주님께서 각 참석자의 그릇을 준비하시어, 각 사람이 영 안에서 가난하고 마음이 순수하며 거리낌 없는 양심을 갖고, 비워지고 짐을 내려놓아 주님과 그분의 현재의 움직임에 대한 신선한 계시를 받도록.
+- 참여하는 모든 성도들 가운데 동역과 교통이 있어, 주님께서 그분의 축복을 부어 주실 수 있는 달콤한 하나와 한마음 한뜻이 있도록.
+- 주님께서 이 시간을 사용하시어 유럽의 다음 세대 영피플과 가정들을 일으키시고, 그분의 다시 오심을 위한 그분의 움직임을 전진시키시도록.
+- 원수가 묶이고 여행과 건강의 방면에서 모든 성도가 보존되도록.
 
-주님께서 프랑스와 이탈리아 두 나라에서 그분의 몸을 통해 성취하신 모든 것으로 인해 주님께 감사드립니다. 이 두 나라에서 있었던 올림픽 복음 여행의 결과로, 새로운 교회들이 일으켜졌고, 기존 교회들이 강건하게 되었으며, 성도들이 복음에 대해 부담을 갖게 되었고, 주님께서 구원받는 사람들을 날마다 더하시어 합치셨습니다(행 2:47).
+## Dublin Meeting Hall
 
-성화 봉송 릴레이와 올림픽 복음 여행 기간에, 그리고 그 이후에 접촉된 구도자들의 목양을 위해 계속 기도해 주십시오. 그들이 꾸준히 계속하고, 교회생활 안으로 목양되며, 남아 있는 열매가 되도록 기도해 주십시오. 주님께서 일꾼들을 내보내신 결과로 성도들이 이주하고 일꾼들이 방문하여, 단기적으로도 장기적으로도 이탈리아와 프랑스어권 유럽 전역에서 주님의 필요를 돌볼 일꾼들이 있도록 기도해 주십시오.
+The close of escrow has been scheduled for the end of this month. As the Lord leads, saints may give through [The Church in Los Angeles](https://www.churchinlosangeles.org/members#offering) designated for “Dublin Meeting Place.” An update about this property, including a video tour, is at [lme.org/reports.html](https://lme.org/reports.html).
 
-후속 목양 여행에 참여할 부담이 있고 가능하신 분들은 프랑스([tinyurl.com/franceshep](https://tinyurl.com/franceshep))와 이탈리아([tinyurl.com/italyshep](https://tinyurl.com/italyshep)) 초청장 및 신청서를 참고해 주십시오.
+## 더블린 집회소
+
+에스크로 마감은 이번 달 말로 예정되어 있습니다. 주님께서 인도하시는 대로, 성도들은 [로스앤젤레스에 있는 교회](https://www.churchinlosangeles.org/members#offering)를 통해 “Dublin Meeting Place”로 지정하여 헌금하실 수 있습니다. 영상 둘러보기를 포함한 이 부동산의 최근 소식은 [lme.org/reports.html](https://lme.org/reports.html)에서 확인할 수 있습니다.
