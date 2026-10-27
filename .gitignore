@@ -1,3 +1,6 @@
 .env
 input.html
 translated.md
+
+# Local agent instructions
+AGENTS.md
