@@ -132,7 +132,7 @@ Verify before continuing:
 - date range text is correct
 - all 16 summary cells are targeted
 - all 17 small group cells are targeted
-- total requests are expected: 68 value requests plus 2 date requests when every replacement has existing text
+- total requests are expected: 66 value requests plus 2 date requests (68 total requests) when every replacement has existing text
 
 If verification fails, stop and report the problem.
 
