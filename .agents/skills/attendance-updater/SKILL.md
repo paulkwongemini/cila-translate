@@ -74,14 +74,15 @@ Small group rows, using 0-based row indexes and the target week's `소그룹` co
 | 13 | `LA2-2` |
 | 14 | `LA2-3` |
 | 15 | `LA2-4` |
-| 16 | `LA2-5` |
 | 17 | `LA2-6` |
 | 18 | `LA2-7` |
 | 19 | `LA2-8` |
 | 23 | `VA` |
 | 24 | `GD` |
 
-For small group values, convert empty values to `미집계`. Preserve non-empty displayed values as-is, including `-`.
+`LA2-5` is discontinued and has no row in the newsletter Doc. Skip Sheet row index 16 even if it contains a value; do not recreate the Doc row or report it as `미집계`. The Sheet retains this row, so all other Sheet row indexes and summary mappings remain unchanged. Preserve group numbers: `LA2-4` is followed by `LA2-6`, `LA2-7`, and `LA2-8`. Do not edit the Sheet.
+
+For the 16 active small groups listed above, convert empty values to `미집계`. Preserve non-empty displayed values as-is, including `-`.
 
 ## Doc Targeting
 
@@ -109,7 +110,7 @@ Read the Sheet and compute the target week. Verify before continuing:
 - the matching date columns exist
 - category row at the matched columns is `기도`, `소그룹`, `주일`, `신언`
 - summary values for `홀1-1`, `홀1-2`, `홀2`, `전체` are present after conversion
-- small group values are present, with blanks converted to `미집계`
+- all 16 active small group values are present, with blanks converted to `미집계`; Sheet row index 16 (`LA2-5`) is excluded
 - values are not obviously inconsistent, such as `전체` being smaller than a visible subtotal for the same category
 
 If verification fails, stop and report the problem.
@@ -131,8 +132,8 @@ Verify before continuing:
 - planned values exactly match Step 1 values
 - date range text is correct
 - all 16 summary cells are targeted
-- all 17 small group cells are targeted
-- total requests are expected: 66 value requests plus 2 date requests (68 total requests) when every replacement has existing text
+- all 16 active small group cells are targeted by their Doc labels, with `LA2-4` followed by `LA2-6` and no `LA2-5` row
+- total requests are expected: 64 value requests plus 2 date requests (66 total requests) when every replacement has existing text
 
 If verification fails, stop and report the problem.
 
@@ -153,7 +154,7 @@ After writing, read the Doc again and verify:
 - target Doc id and title are still correct
 - date range in `인수 통계` matches the updated week
 - summary table values match the Sheet-derived values
-- small group table values match the Sheet-derived values
+- all 16 active small group table values match the Sheet-derived values; `LA2-5` remains absent and the remaining group numbers are unchanged
 
 Only report completion after readback verification succeeds. If rendered layout cannot be inspected through connector data, do not claim visual verification.
 
